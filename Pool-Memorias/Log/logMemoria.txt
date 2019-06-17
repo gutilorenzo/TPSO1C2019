@@ -1,0 +1,153 @@
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876):  
+ ========== Iniciación de Pool de Memoria ========== 
+ 
+ 
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [LOGYCONFIG](1) LOG CREADO. 
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] RESERVAR MEMORIA.
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] BUSCANDO CONFIGURACION.
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] LEYENDO CONFIGURACION...
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): PUERTO PARA MODULO MEMORIA: 8000
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] IP DE FILESYSTEM: 127.0.0.1
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] PUERTO DE FILESYSTEM: 8001
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] IP DE SEEDS: 127.0.0.1
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] PUERTOS PARA SEEDS: 1433834352
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] RETARTDO MEMORIA: 600
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] RETARDO DEL FS: 600
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] TAMAÑO DE MEMORIA: 2048
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] RETARDO DEL JOURNALING: 600
+[INFO] 23:00:31:625 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] RETARDO DE GOSSIPING: 30000
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [CONFIGURANDO MODULO] NUMERO DE MEMORIA: 600
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [LOGYCONFIG] *** CONFIGURACIÓN DE MEMORIA CARGADA. *** 
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [ARMAR MEMORIA] Armo el bloque de memoria, guardo su tamaño
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [ARMAR MEMORIA] Se ha creado la memoria contigua
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [ARMAR MEMORIA] Se ha creado la memoria
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [ARMAR MEMORIA] Guardo tamaño de memoria: 8192
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [ARMAR MEMORIA] Tamaño de memoria guardada, MEMORIA REAL: 2048
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [ARMAR MEMORIA] Tamaño de pagina: 44
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [ARMAR MEMORIA] Cantidad maxima de paginas en memoria: 4
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [ARMAR MEMORIA] BITMAP creado con tamaño de 4
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [ARMAR MEMORIA] bloque_LRU para administrar el LRU CREADO
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [ARMAR MEMORIA] Memoria inicializada de forma correcta
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [SEMAFOROS] Iniciando semaforos y mutexs
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [SEMAFOROS] Semaforos y mutex inicializados
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [SEMAFOROS] Semaforo paginasSinUsar iniciada con valor '4'
+[INFO] 23:00:31:626 Proceso Memoria/(7876:7876): [HILO CONSOLA]Inicializando HILO CONSOLA
+[INFO] 23:00:31:627 Proceso Memoria/(7876:7876): [HILO CONSOLA]Se crea HILO CONSOLA
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [INSERT] EN funcion INSERT
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [INSERT] EN funcion INSERT
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [INSERT] Me pongo a buscar el segmento y la tabla en base a 'TAB1' y '1'
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [Buscar Key] Empiezo a buscar la key '1' perteneciente a la tabla 'TAB1'
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [BUSCANDO SEGMENTO X KEY] No se ha inicializado la tabla de segmentos, devuelvo NULL
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [Buscar Key] NO EXISTE NINGUN SEGMENTO ASOCIADA A 'TAB1'; Devuelvo ERROR
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [INSERT] NO se encontro la posicion a donde debo ir
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [INSERT] Tampoco se encontro que existe un segmento asociado a la tabla 'TAB1'/nProcedo a crear el segmento, tabla de pagina y alojar la pagina en memoria
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [Crear Tabla y pagina] En crear Tabla de pagina y pagina nueva porque no estan con la key 1
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [Crear Tabla y pagina] Tabla pagina creada
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [Crear Tabla y pagina] Verifico si hay espacio libre en Memoria
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [BITMAP] Verifico si tiene espacio libre del total de paginas que son: '4'
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [BITMAP] Busco la siguiente posicion libre para la key [0]
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [BITMAP] La posicion '0' esta libre
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [Crear Tabla y pagina] La pagina '0' esta LIBRES y la usare para guardar la pagina
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [Crear Tabla y pagina] Asigno el espacio libre a la tabla pagina y a la pagina
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [Crear Tabla y pagina] Procedo a asignar la tabla y la pagina a dicha posicion
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [CREANDO PAGINA Y VALOR] Por crear pagina y valor
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [CREANDO PAGINA Y VALOR]KEY|VALOR|TIMESTAMP: 1|HOLA|1560650442500.000000
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [CREANDO PAGINA Y VALOR] Pagina creada y tambien su valor
+[INFO] 23:00:42:500 Proceso Memoria/(7876:7910): [asignarNuevaTablaAPosicionLibre] Por guardar los datos de el valor y la nueva pagina en memoria
+[INFO] 23:00:43:701 Proceso Memoria/(7876:7910): [asignarNuevaTablaAPosicionLibre] Pagina guardada
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [asignarNuevaTablaAPosicionLibre] El valor de la pagina fue guardada, actualizo el BITMAP ocupando la posicion '0'
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [asignarNuevaTablaAPosicionLibre] Se han guardado exitosamente los datos
+Ahora mismo hay '4' espacios libres
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [MODIFICAR BLOQUE LRU]
+Actualizar bloque LRU
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [MODIFICAR BLOQUE LRU]
+DATOS INGRESADOS:
+NOMBRE TABLA <TAB1>
+NUMERO PAGINA: <0>
+TIMESTAMP: <1560650444300.000000>
+ESTADO PAGINA: <1>
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [asignarNuevaTablaAPosicionLibre]POSICION 0
+VALORES PUESTOS: KEY|VALUE|TIMESTAMP 1|HOLA|1560650442500.000000
+VALORES PUESTOS: KEY|VALUE|TIMESTAMP 1|HOLA|1560650442500.000000
+
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [Crear Tabla y pagina] ASIGNACION COMPLETADA
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [Crear Tabla y pagina] Desactivo el mutex mutex_tabla_pagina_en_modificacion
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [INSERT] Tabla de pagina referenciada creada con info NROPAGINA|KEY|FLAG: 0|1|TRUE
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [CREANDO SEGMENTO] Creando segmento para la tabla 'TAB1' asociando al nro de pagina '0'
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [CREANDO SEGMENTO] Estructura de la nueva tabla creada
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [CREANDO SEGMENTO] PATH COPIADO 'TAB1'
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [CREANDO SEGMENTO] ES EL PRIMER SEGMENTO EN SER CREADO 'TAB1'
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [CREANDO SEGMENTO]SEGMENTO 'TAB1' CREADO!!!
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [INSERT] SEGMENTO Creado para la tabla 'TAB1' /nComo es el primer segmento TABLA SEGMENTOS apuntara este elemento
+[INFO] 23:00:44:301 Proceso Memoria/(7876:7910): [INSERT] Se ha creado un segmento para la tabla 'TAB1'
+[INFO] 23:01:20:817 Proceso Memoria/(7876:7918): [FUNCION SELECT] ENTRANDO POR NUEVA PETICION
+Valor de key de los datos solicitados:
+
+SEGMENTO: TAB1 
+KEY: 1
+[INFO] 23:01:20:817 Proceso Memoria/(7876:7918): [Buscar Key] Empiezo a buscar la key '1' perteneciente a la tabla 'TAB1'
+[INFO] 23:01:20:817 Proceso Memoria/(7876:7918): [BUSCANDO KEY] Buscando el segmento referido para la tabla 'TAB1'
+[INFO] 23:01:20:817 Proceso Memoria/(7876:7918): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'TAB1'|'TAB1'
+[INFO] 23:01:20:817 Proceso Memoria/(7876:7918): [BUSCANDO SEGMENTO X NOMBRETABLA] Se encontro el segmento buscado
+[INFO] 23:01:20:817 Proceso Memoria/(7876:7918): [Buscar Key] Se encontro el segmento con nombre 'TAB1'
+[INFO] 23:01:20:817 Proceso Memoria/(7876:7918): [Buscar Key Por Tabla PAGINA] Por buscar la KEY '1'
+[INFO] 23:01:20:817 Proceso Memoria/(7876:7918): [SELECT] Por acceder a la memoria a la posicion '0'
+[INFO] 23:01:20:818 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Empiezo a obtener datos de pagina '0'
+[INFO] 23:01:21:418 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Obtuve datos de pagina '0'
+[INFO] 23:01:21:418 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Incremento el valor de Acceso para la pagina con key '1'
+[INFO] 23:01:21:418 Proceso Memoria/(7876:7918): [INCREMENTAR ACCESO EN 1] Entrando, modifico en tabla LRU el timestamp de '0'
+[INFO] 23:01:21:418 Proceso Memoria/(7876:7918): [MODIFICAR BLOQUE LRU]
+Actualizar bloque LRU
+[INFO] 23:01:21:418 Proceso Memoria/(7876:7918): [MODIFICAR BLOQUE LRU]
+DATOS ACTUALIZADOS DE LA POSICION: <0>
+[INFO] 23:01:22:18 Proceso Memoria/(7876:7918): [asignarNuevaTablaAPosicionLibre] Cantidad de accesos de la pagina NRO '0' de la key '1' ACTUALIZADA
+[INFO] 23:01:22:18 Proceso Memoria/(7876:7918): [SELECT] Datos obtenidos de la posicion '0'
+[INFO] 23:01:22:18 Proceso Memoria/(7876:7918): [Buscar Key Por Tabla PAGINA] SE ENCONTRO LA KEY EN LA POSICION PARA LA KEY|POSICION 1|0
+[INFO] 23:01:22:18 Proceso Memoria/(7876:7918): [FUNCION SELECT] Numero de pagina a donde debo ir: 0
+Me pongo a buscar los datos
+
+[INFO] 23:01:22:18 Proceso Memoria/(7876:7918): [SELECT] Por acceder a la memoria a la posicion '0'
+[INFO] 23:01:22:18 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Empiezo a obtener datos de pagina '0'
+[INFO] 23:01:22:618 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Obtuve datos de pagina '0'
+[INFO] 23:01:22:618 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Incremento el valor de Acceso para la pagina con key '1'
+[INFO] 23:01:22:618 Proceso Memoria/(7876:7918): [INCREMENTAR ACCESO EN 1] Entrando, modifico en tabla LRU el timestamp de '0'
+[INFO] 23:01:22:618 Proceso Memoria/(7876:7918): [MODIFICAR BLOQUE LRU]
+Actualizar bloque LRU
+[INFO] 23:01:22:618 Proceso Memoria/(7876:7918): [MODIFICAR BLOQUE LRU]
+DATOS ACTUALIZADOS DE LA POSICION: <0>
+[INFO] 23:01:23:219 Proceso Memoria/(7876:7918): [asignarNuevaTablaAPosicionLibre] Cantidad de accesos de la pagina NRO '0' de la key '1' ACTUALIZADA
+[INFO] 23:01:23:219 Proceso Memoria/(7876:7918): [SELECT] Datos obtenidos de la posicion '0'
+[INFO] 23:01:23:219 Proceso Memoria/(7876:7918): [MODIFICAR BLOQUE LRU]
+Actualizar bloque LRU
+[INFO] 23:01:23:219 Proceso Memoria/(7876:7918): [MODIFICAR BLOQUE LRU]
+DATOS ACTUALIZADOS DE LA POSICION: <0>
+[INFO] 23:01:23:219 Proceso Memoria/(7876:7918): [FUNCION SELECT] Se encontro los datos
+[INFO] 23:01:37:412 Proceso Memoria/(7876:7918): [Buscar Key] Empiezo a buscar la key '1' perteneciente a la tabla 'TAB1'
+[INFO] 23:01:37:412 Proceso Memoria/(7876:7918): [BUSCANDO KEY] Buscando el segmento referido para la tabla 'TAB1'
+[INFO] 23:01:37:412 Proceso Memoria/(7876:7918): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'TAB1'|'TAB1'
+[INFO] 23:01:37:412 Proceso Memoria/(7876:7918): [BUSCANDO SEGMENTO X NOMBRETABLA] Se encontro el segmento buscado
+[INFO] 23:01:37:412 Proceso Memoria/(7876:7918): [Buscar Key] Se encontro el segmento con nombre 'TAB1'
+[INFO] 23:01:37:412 Proceso Memoria/(7876:7918): [Buscar Key Por Tabla PAGINA] Por buscar la KEY '1'
+[INFO] 23:01:37:413 Proceso Memoria/(7876:7918): [SELECT] Por acceder a la memoria a la posicion '0'
+[INFO] 23:01:37:413 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Empiezo a obtener datos de pagina '0'
+[INFO] 23:01:38:13 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Obtuve datos de pagina '0'
+[INFO] 23:01:38:13 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Incremento el valor de Acceso para la pagina con key '1'
+[INFO] 23:01:38:13 Proceso Memoria/(7876:7918): [INCREMENTAR ACCESO EN 1] Entrando, modifico en tabla LRU el timestamp de '0'
+[INFO] 23:01:38:13 Proceso Memoria/(7876:7918): [MODIFICAR BLOQUE LRU]
+Actualizar bloque LRU
+[INFO] 23:01:38:13 Proceso Memoria/(7876:7918): [MODIFICAR BLOQUE LRU]
+DATOS ACTUALIZADOS DE LA POSICION: <0>
+[INFO] 23:01:38:613 Proceso Memoria/(7876:7918): [asignarNuevaTablaAPosicionLibre] Cantidad de accesos de la pagina NRO '0' de la key '1' ACTUALIZADA
+[INFO] 23:01:38:613 Proceso Memoria/(7876:7918): [SELECT] Datos obtenidos de la posicion '0'
+[INFO] 23:01:38:613 Proceso Memoria/(7876:7918): [Buscar Key Por Tabla PAGINA] SE ENCONTRO LA KEY EN LA POSICION PARA LA KEY|POSICION 1|0
+[INFO] 23:01:40:705 Proceso Memoria/(7876:7918): [SELECT] Por acceder a la memoria a la posicion '0'
+[INFO] 23:01:40:705 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Empiezo a obtener datos de pagina '0'
+[INFO] 23:01:41:305 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Obtuve datos de pagina '0'
+[INFO] 23:01:41:305 Proceso Memoria/(7876:7918): [OBTENIENDO DATOS] Incremento el valor de Acceso para la pagina con key '1'
+[INFO] 23:01:41:305 Proceso Memoria/(7876:7918): [INCREMENTAR ACCESO EN 1] Entrando, modifico en tabla LRU el timestamp de '0'
+[INFO] 23:01:41:305 Proceso Memoria/(7876:7918): [MODIFICAR BLOQUE LRU]
+Actualizar bloque LRU
+[INFO] 23:01:41:305 Proceso Memoria/(7876:7918): [MODIFICAR BLOQUE LRU]
+DATOS ACTUALIZADOS DE LA POSICION: <0>
+[INFO] 23:01:41:905 Proceso Memoria/(7876:7918): [asignarNuevaTablaAPosicionLibre] Cantidad de accesos de la pagina NRO '0' de la key '1' ACTUALIZADA
+[INFO] 23:01:41:905 Proceso Memoria/(7876:7918): [SELECT] Datos obtenidos de la posicion '0'

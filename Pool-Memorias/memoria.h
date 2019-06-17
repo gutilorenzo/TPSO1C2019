@@ -24,7 +24,7 @@
 #include <commons/config.h>
 #include <commons/collections/queue.h>
 #include "parser.h"
-#include "../Biblioteca/src/Biblioteca.c"
+#include "../Biblioteca/src/Biblioteca.h"
 
 
 #define PATH_MEMORIA_CONFIG "../Config/MEMORIA.txt"
