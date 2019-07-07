@@ -11,7 +11,8 @@
 #include <sys/sem.h>
 #include <time.h>
 #include <pthread.h>
-#include "../Biblioteca/src/Biblioteca.h"
+//#include "../Biblioteca/src/Biblioteca.h"
+#include <mustp_commons/Biblioteca.h>
 
 //#include "estructuras.h"
 

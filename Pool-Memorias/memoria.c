@@ -1,7 +1,8 @@
 #include "memoria.h"
 #include "gestionMemoria.h"
 //#include "../Biblioteca/src/Biblioteca.c"
-#include "../Biblioteca/src/Biblioteca.h"
+//#include "../Biblioteca/src/Biblioteca.h"
+#include <mustp_commons/Biblioteca.h>
 #include "main_memoria.h"
 //void terminar_memoria(t_log* g_log);
 

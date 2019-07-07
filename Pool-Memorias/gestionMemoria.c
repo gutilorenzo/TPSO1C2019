@@ -8,7 +8,8 @@
 #include "gestionMemoria.h"
 #include "memoria.h"
 #include <string.h>
-#include "../Biblioteca/src/Biblioteca.h"
+//#include "../Biblioteca/src/Biblioteca.h"
+#include <mustp_commons/Biblioteca.h>
 #include "estructuras.h"
 
 /* VARIABLES GLOBALES */
