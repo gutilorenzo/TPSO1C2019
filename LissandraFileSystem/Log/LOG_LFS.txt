@@ -1,0 +1,567 @@
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): [LOG CREADO] continuamos cargando la estructura de configuracion.
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Por reservar memoria para variable de configuracion.
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Por crear el archivo de config para levantar archivo con datos.
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): LissandraFS: Leyendo Archivo de Configuracion...
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Almacenando el puerto
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): El puerto de escucha es: 8001
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Almacenando el PUNTO DE MONTAJE: /home/martin/Documentos/prueba-LFS
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): El punto de montaje es: /home/martin/Documentos/prueba-LFS
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Y ahora la variable tabla_path queda con: /home/martin/Documentos/prueba-LFS/Tables/
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Almacenando el retardo
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): El retardo de respuesta es: 600
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Almacenando el tamanio del valor de una key
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): El tamanio del valor es: 20
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Almacenando el puerto
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): El tiempo de dumpeo es: 60000
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Almacenando la IP
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): La IP es: 127.0.0.1
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Se ha cargado todos los datos del archivo de configuracion
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): levantando metadata del File System
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): ruta de la metadata: /home/martin/Documentos/prueba-LFS/Metadata/Metadata
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): LFS: Leyendo metadata...
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Almacenando tamanio de bloque
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): el tamanio del bloque es: 64
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Almacenando cantidad de bloques
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): La cantidad de bloques es: 5192
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Almacenando magic number
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): el magic number es: LISSANDRA
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): result: 0
+[INFO] 20:31:46:438 Proceso Lissandra File System/(5105:5105): Voy a crear los bloques
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): los bloques fueron creados
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): la configuracion y la metadata se levantaron ok
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): Voy a cargar bitmap
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): Path del bitmap: /home/martin/Documentos/prueba-LFS/Metadata/Bitmap.bin
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): existe archivo, se procede a abrir el bitmap
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): cantidad de bloques libres en el bitmap: 5187
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): cantidad de bloques ocupados: 5
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): cambios en bitmap persistidos
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): ocupando bloque: 0
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): se ocupo bien? tiene que ser 1: 1
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): cantidad de bloques ocupados: 6 = 1?
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): primer bloque libre: 6
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): cambios en bitmap persistidos
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): okey... vamos a liberarlo
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): se libero bien? tiene que ser 0: 0
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5105): cantidad de bloques ocupados: 5 = 0?
+[INFO] 20:31:46:473 Proceso Lissandra File System/(5105:5108): En el hilo de consola
+[INFO] 20:31:46:474 Proceso Lissandra File System/(5105:5109): [SERVIDOR] Entrando a hilo de escucha del servidor del LFS
+[INFO] 20:31:46:474 Proceso Lissandra File System/(5105:5109): [SERVIDOR] Esperando recibir un cliente
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): En la posicion 0 del array esta el valor select
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): En la posicion 1 del array esta el valor tabla1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): En la posicion 2 del array esta el valor 0
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): El tamanio del vector de comandos es: 3
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Recibimos el comando: select
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Se devuelve el valor 0
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Se selecciono select
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Cantidad de parametros correctos ingresados para el comando select
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [ OK ] La tabla ya existe.
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): LFS: Leyendo metadata...
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Almacenando consistencia
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): La consistencia  es: SC
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Almacenando particiones
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Las particiones son : 3
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): el tiempo de compactacion es: 100
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): KEY: 0 
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): PARTICION: 0 
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): voy a armar registro nulo
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): arme registro nulo
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Se armo registro nulo, su timestamp es 0
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): obtuve el primer reg
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): La ruta de la particion es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1/0.bin
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): ruta /home/martin/Documentos/prueba-LFS/Tables/TABLA1/0.bin
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 0
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): obtuve el segundo reg
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Busco la key 0 en la tabla tabla1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Tengo 1 temporales
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Buscando en el temporal 0 que es /home/martin/Documentos/prueba-LFS/Tables/TABLA1/0.tmp
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 68
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 0
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 0, que es el bloque 3
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block3.bin abierto correctamente
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 64
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 1, que es el bloque 4
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block4.bin abierto correctamente
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 4
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): libere bloque no nulo
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): por imprimir el retval
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] No encontré un registro con la key indicada
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Registro encontrado: <0;25888;>
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): obtuve el tercer reg
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:53:887 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): Busco la key 0 en la tabla tabla1
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): Tengo 0 temporales
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): obtuve el cuarto reg
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): timestamp reg3: 0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): verificandoFuncion
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): timestamp reg3: 0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): el mayor timestamp  0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): el timestamp mas grande es 0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): No se encontró ningún registro con la key 0
+[INFO] 20:31:53:888 Proceso Lissandra File System/(5105:5108): Liberando comando alocado: select tabla1 0
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): En la posicion 0 del array esta el valor select
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): En la posicion 1 del array esta el valor tabla1
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): En la posicion 2 del array esta el valor 1
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): El tamanio del vector de comandos es: 3
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): Recibimos el comando: select
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): Se devuelve el valor 0
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): Se selecciono select
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): Cantidad de parametros correctos ingresados para el comando select
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:55:438 Proceso Lissandra File System/(5105:5108): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [ OK ] La tabla ya existe.
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): LFS: Leyendo metadata...
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Almacenando consistencia
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): La consistencia  es: SC
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Almacenando particiones
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Las particiones son : 3
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): el tiempo de compactacion es: 100
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): KEY: 1 
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): PARTICION: 1 
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): voy a armar registro nulo
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): arme registro nulo
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Se armo registro nulo, su timestamp es 0
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): obtuve el primer reg
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): La ruta de la particion es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1/1.bin
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): ruta /home/martin/Documentos/prueba-LFS/Tables/TABLA1/1.bin
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 0
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): obtuve el segundo reg
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Busco la key 1 en la tabla tabla1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Tengo 1 temporales
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Buscando en el temporal 0 que es /home/martin/Documentos/prueba-LFS/Tables/TABLA1/0.tmp
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 68
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 0, que es el bloque 3
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block3.bin abierto correctamente
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 64
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 1, que es el bloque 4
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block4.bin abierto correctamente
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 4
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): libere bloque no nulo
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): por imprimir el retval
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): antes de imprimir
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): antes de imprimir 1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): antes de imprimir 1563492479028
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): antes de imprimir chau
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Registro encontrado: <1563492479028;1;chau>
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): obtuve el tercer reg
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Busco la key 1 en la tabla tabla1
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Tengo 0 temporales
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): obtuve el cuarto reg
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): timestamp reg3: 1563492479028
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): verificandoFuncion
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): timestamp reg3: 1563492479028
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): el mayor timestamp  1563492479028
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): el timestamp mas grande es 1563492479028
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Registro obtenido: <1563492479028;1;chau>
+[INFO] 20:31:55:439 Proceso Lissandra File System/(5105:5108): Liberando comando alocado: select tabla1 1
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): En la posicion 0 del array esta el valor select
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): En la posicion 1 del array esta el valor tabla1
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): En la posicion 2 del array esta el valor 2
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): El tamanio del vector de comandos es: 3
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): Recibimos el comando: select
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): Se devuelve el valor 0
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): Se selecciono select
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): Cantidad de parametros correctos ingresados para el comando select
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [ OK ] La tabla ya existe.
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): LFS: Leyendo metadata...
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): Almacenando consistencia
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): La consistencia  es: SC
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): Almacenando particiones
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): Las particiones son : 3
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): el tiempo de compactacion es: 100
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): KEY: 2 
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): PARTICION: 2 
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): voy a armar registro nulo
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): arme registro nulo
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): Se armo registro nulo, su timestamp es 0
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): obtuve el primer reg
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): La ruta de la particion es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1/2.bin
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): ruta /home/martin/Documentos/prueba-LFS/Tables/TABLA1/2.bin
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 0
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): obtuve el segundo reg
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:56:252 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Busco la key 2 en la tabla tabla1
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Tengo 1 temporales
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Buscando en el temporal 0 que es /home/martin/Documentos/prueba-LFS/Tables/TABLA1/0.tmp
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 68
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 2
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 0, que es el bloque 3
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block3.bin abierto correctamente
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 64
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 1, que es el bloque 4
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block4.bin abierto correctamente
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 4
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): libere bloque no nulo
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): por imprimir el retval
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): antes de imprimir
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): antes de imprimir 2
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): antes de imprimir 1563492488999
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): antes de imprimir azul
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Registro encontrado: <1563492488999;2;azul>
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): obtuve el tercer reg
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Busco la key 2 en la tabla tabla1
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Tengo 0 temporales
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): obtuve el cuarto reg
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): timestamp reg3: 1563492488999
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): verificandoFuncion
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): timestamp reg3: 1563492488999
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): el mayor timestamp  1563492488999
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): el timestamp mas grande es 1563492488999
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Registro obtenido: <1563492488999;2;azul>
+[INFO] 20:31:56:253 Proceso Lissandra File System/(5105:5108): Liberando comando alocado: select tabla1 2
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): En la posicion 0 del array esta el valor select
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): En la posicion 1 del array esta el valor tabla1
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): En la posicion 2 del array esta el valor 3
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): El tamanio del vector de comandos es: 3
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Recibimos el comando: select
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Se devuelve el valor 0
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Se selecciono select
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Cantidad de parametros correctos ingresados para el comando select
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [ OK ] La tabla ya existe.
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): LFS: Leyendo metadata...
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Almacenando consistencia
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): La consistencia  es: SC
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Almacenando particiones
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Las particiones son : 3
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): el tiempo de compactacion es: 100
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): KEY: 3 
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): PARTICION: 0 
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): voy a armar registro nulo
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): arme registro nulo
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Se armo registro nulo, su timestamp es 0
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): obtuve el primer reg
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): La ruta de la particion es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1/0.bin
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): ruta /home/martin/Documentos/prueba-LFS/Tables/TABLA1/0.bin
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 0
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): obtuve el segundo reg
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Busco la key 3 en la tabla tabla1
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Tengo 1 temporales
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Buscando en el temporal 0 que es /home/martin/Documentos/prueba-LFS/Tables/TABLA1/0.tmp
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 68
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 3
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 0, que es el bloque 3
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block3.bin abierto correctamente
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 64
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 1, que es el bloque 4
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block4.bin abierto correctamente
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 4
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): libere bloque no nulo
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): por imprimir el retval
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): antes de imprimir
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): antes de imprimir 3
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): antes de imprimir 1563492494639
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): antes de imprimir rojo
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Registro encontrado: <1563492494639;3;rojo>
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): obtuve el tercer reg
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:57:32 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): Busco la key 3 en la tabla tabla1
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): Tengo 0 temporales
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): obtuve el cuarto reg
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): timestamp reg3: 1563492494639
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): verificandoFuncion
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): timestamp reg3: 1563492494639
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): el mayor timestamp  1563492494639
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): el timestamp mas grande es 1563492494639
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): Registro obtenido: <1563492494639;3;rojo>
+[INFO] 20:31:57:33 Proceso Lissandra File System/(5105:5108): Liberando comando alocado: select tabla1 3
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): En la posicion 0 del array esta el valor select
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): En la posicion 1 del array esta el valor tabla1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): En la posicion 2 del array esta el valor 4
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): El tamanio del vector de comandos es: 3
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Recibimos el comando: select
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Se devuelve el valor 0
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Se selecciono select
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Cantidad de parametros correctos ingresados para el comando select
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [ OK ] La tabla ya existe.
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): LFS: Leyendo metadata...
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Almacenando consistencia
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): La consistencia  es: SC
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Almacenando particiones
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Las particiones son : 3
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): el tiempo de compactacion es: 100
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): KEY: 4 
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): PARTICION: 1 
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): voy a armar registro nulo
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): arme registro nulo
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Se armo registro nulo, su timestamp es 0
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): obtuve el primer reg
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): La ruta de la particion es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1/1.bin
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): ruta /home/martin/Documentos/prueba-LFS/Tables/TABLA1/1.bin
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 0
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): obtuve el segundo reg
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Busco la key 4 en la tabla tabla1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Tengo 1 temporales
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Buscando en el temporal 0 que es /home/martin/Documentos/prueba-LFS/Tables/TABLA1/0.tmp
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 68
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 4
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 0, que es el bloque 3
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block3.bin abierto correctamente
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 64
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 1, que es el bloque 4
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block4.bin abierto correctamente
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 4
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): libere bloque no nulo
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): por imprimir el retval
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] No encontré un registro con la key indicada
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Registro encontrado: <0;25888;>
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): obtuve el tercer reg
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Busco la key 4 en la tabla tabla1
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Tengo 0 temporales
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): obtuve el cuarto reg
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): timestamp reg3: 0
+[INFO] 20:31:57:846 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:57:847 Proceso Lissandra File System/(5105:5108): verificandoFuncion
+[INFO] 20:31:57:847 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:57:847 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:57:847 Proceso Lissandra File System/(5105:5108): timestamp reg3: 0
+[INFO] 20:31:57:847 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:57:847 Proceso Lissandra File System/(5105:5108): el mayor timestamp  0
+[INFO] 20:31:57:847 Proceso Lissandra File System/(5105:5108): el timestamp mas grande es 0
+[INFO] 20:31:57:847 Proceso Lissandra File System/(5105:5108): No se encontró ningún registro con la key 4
+[INFO] 20:31:57:847 Proceso Lissandra File System/(5105:5108): Liberando comando alocado: select tabla1 4
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): En la posicion 0 del array esta el valor select
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): En la posicion 1 del array esta el valor tabla1
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): En la posicion 2 del array esta el valor 5
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): El tamanio del vector de comandos es: 3
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): Recibimos el comando: select
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): Se devuelve el valor 0
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): Se selecciono select
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): Cantidad de parametros correctos ingresados para el comando select
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:58:758 Proceso Lissandra File System/(5105:5108): [ OK ] La tabla ya existe.
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/prueba-LFS/Tables/TABLA1/metadata
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): LFS: Leyendo metadata...
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Almacenando consistencia
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): La consistencia  es: SC
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Almacenando particiones
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Las particiones son : 3
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): el tiempo de compactacion es: 100
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): KEY: 5 
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): PARTICION: 2 
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): voy a armar registro nulo
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): arme registro nulo
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Se armo registro nulo, su timestamp es 0
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): obtuve el primer reg
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): La ruta de la particion es: /home/martin/Documentos/prueba-LFS/Tables/TABLA1/2.bin
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): ruta /home/martin/Documentos/prueba-LFS/Tables/TABLA1/2.bin
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 0
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): obtuve el segundo reg
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Busco la key 5 en la tabla tabla1
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Tengo 1 temporales
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Buscando en el temporal 0 que es /home/martin/Documentos/prueba-LFS/Tables/TABLA1/0.tmp
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Se ha encontrado el archivo de configuracion
+
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): Size encontrado del temp es: 68
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): llego al while
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): salgo de	l while
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 5
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 0, que es el bloque 3
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block3.bin abierto correctamente
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 64
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:58:759 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Leyendo el bloque nro 1, que es el bloque 4
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): [abrirArchivoBloque] Archivo /home/martin/Documentos/prueba-LFS/Bloques/block4.bin abierto correctamente
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] El tamaño del bloque es: 4
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Bloque leído correctamente
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): libere bloque no nulo
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): por imprimir el retval
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): [OBTENIENDO KEY BLOQUES] No encontré un registro con la key indicada
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): Registro encontrado: <0;25888;>
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): obtuve el tercer reg
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] tabla recibida tabla1
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/prueba-LFS/Tables/TABLA1
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): Busco la key 5 en la tabla tabla1
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): Tengo 0 temporales
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): Salgo de la función
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): obtuve el cuarto reg
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): timestamp reg3: 0
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): verificandoFuncion
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): timestamp reg1: 0
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): timestamp reg2: 0
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): timestamp reg3: 0
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): timestamp reg4: 0
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): el mayor timestamp  0
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): el timestamp mas grande es 0
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): No se encontró ningún registro con la key 5
+[INFO] 20:31:58:760 Proceso Lissandra File System/(5105:5108): Liberando comando alocado: select tabla1 5
+[INFO] 20:32:10:917 Proceso Lissandra File System/(5105:5108): 
+
+**************************** SALIENDO ****************************
+
+
