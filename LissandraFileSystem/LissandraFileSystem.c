@@ -399,6 +399,9 @@ int abrirBitmap() {
 	string_append(&fs_path, bitmapPath);
 
 	int bitmap = open(fs_path, O_RDWR);
+	if(bitmap == -1){
+		log_error(logger, "Error en el open\n");
+	}
 	struct stat mystat;
 
 	if (fstat(bitmap, &mystat) < 0) {
@@ -428,6 +431,11 @@ int abrirBitmap() {
 }
 
 void crearBitarray() {
+
+	log_info(logger,"[DEBUG] Voy a crear bitarray");
+	log_info(logger,"[DEBUG] Metadata blocks: %d",metadataLFS->blocks);
+	log_info(logger,"[DEBUG] Metadata blocks size: %d",metadataLFS->block_size);
+	log_info(logger,"[DEBUG] Metadata magic number: %s",metadataLFS->magic_number);
 
 	bytesAEscribir = metadataLFS->blocks / 8;
 
@@ -1666,7 +1674,9 @@ int escribirBloque(int bloque, int size, int offset, void* buffer) {
 }
 
 void crearBloques() {
-
+	char* pathBloques = malloc(strlen(configFile->punto_montaje) + strlen(PATH_BLOQUES) + 1);
+	sprintf(pathBloques, "%s%s",configFile->punto_montaje,PATH_BLOQUES);
+	opendir()
 	int tamanio = strlen(configFile->punto_montaje) + strlen(PATH_BLOQUES) + 30;
 	char* pathBloque = malloc(tamanio);
 	log_info(logger, "Voy a crear los bloques");
