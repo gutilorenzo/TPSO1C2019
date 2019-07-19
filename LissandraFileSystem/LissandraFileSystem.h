@@ -43,6 +43,7 @@
 t_log* logger;
 
 typedef struct{	
+	char* ip;
 	int puerto_escucha;
 	char* punto_montaje;
 	int retardo;
@@ -74,7 +75,7 @@ int socketEscuchaMemoria, conexionEntrante, recibiendoMensaje;
 void LisandraSetUP();
 bool cargarConfiguracion();
 void iniciaabrirServidorLissandra();
-
+void atenderRequest(char* linea);
 
 /*--------------------------------------------------------------------------------------------
  * 									Elementos de consola
@@ -83,7 +84,6 @@ void iniciaabrirServidorLissandra();
 
 #define MAXSIZE_COMANDO 200
 //enum {Select, insert, create, describe, drop, salir};
-char* linea;
 char* tabla_Path;
 void consola();
 void menu();
