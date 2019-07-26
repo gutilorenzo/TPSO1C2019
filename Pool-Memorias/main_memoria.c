@@ -154,10 +154,11 @@ int main(int argc, char **argv)
 //	pthread_cancel(gossiping_h, SIGKILL);
 	log_info(log_memoria, "[Liberando] Liberando memoria Gossiping");
 //	liberar_memoria_gossiping();
+	vaciar_la_lista_memorias_caidas();
 	vaciar_las_seeds();
 	log_info(log_memoria, "[Liberando] Gossiping, destruyendo listas creadas");
 //	destruir_memoria_gossiping();
-	vaciar_la_lista_memorias_caidas();
+
 	printf("\nSe libero la memoria gossiping");
 	log_info(log_memoria, "[Liberando] Cerrando clientes");
 	cerrar_todos_clientes();

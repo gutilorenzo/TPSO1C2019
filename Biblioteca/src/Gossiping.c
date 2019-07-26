@@ -99,13 +99,16 @@ void vaciar_las_seeds(){
 void vaciar_la_lista_memorias_caidas(){
 	t_link_element* element = g_memorias_caidas->head;
 	t_link_element*	aux = NULL;
-	while (element != NULL) {
+	int i = 0;
+	while (i < g_memorias_caidas->elements_count) {
 		aux = element->next;
 		free(element->data);
 		free(element);
 		element = aux;
 		printf("SE ELIMINO 1 MEMORIA CAIDA\n\n");
+		i++;
 	}
+	list_clean(g_memorias_caidas);
 	list_destroy(g_memorias_caidas);
 	printf("Se vacio toda la lista <g_memorias_caidas>\n\n");
 }
@@ -396,6 +399,16 @@ t_list *hayMemoriasCaidas(void)
 	t_list *retval;
 	pthread_mutex_lock(&gossip_caidas_mutex);
 	retval = list_duplicate(g_memorias_caidas);
+
+/*	//ES LO MISMO QUE LIST CLEAN PERO QUIERO VER SI LOGRO BORRAR LEAK
+	t_link_element* element;
+		while (g_memorias_caidas->head != NULL) {
+			element = g_memorias_caidas->head->next;
+			free(g_memorias_caidas->head);
+			g_memorias_caidas->head = element;
+		}
+		g_memorias_caidas->elements_count = 0;
+*/
 	list_clean(g_memorias_caidas);
 	pthread_mutex_unlock(&gossip_caidas_mutex);
 	return retval;
