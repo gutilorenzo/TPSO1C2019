@@ -26,8 +26,22 @@ void actualizarMemoriasDisponibles(void)
 		for(int i=0;i<list_size(caidas);i++){
 			aux = list_get(caidas,i);
 			log_info(log_memoria,"Memoria caida (%d): %d-%s-%s",i,aux->numMemoria,aux->ip,aux->puerto);
+		//	free(aux);
 		}
+		t_link_element* elemAux;
+		while(caidas->head!=NULL){
+			elemAux = caidas->head->next;
+			free(caidas->head->data);
+			free(caidas->head);
+			caidas->head = elemAux;
+		}
+
+
+	/*	free(caidas->head->data);
+		list_clean(caidas);
+		list_destroy(caidas);*/
 	}
+	list_destroy(caidas);
 
 	if(huboCambios()){
 		log_info(log_memoria,"Hubo cambios en las memorias conocidas");
@@ -105,8 +119,8 @@ int main(int argc, char **argv)
 	iniciar_hilo_gossiping(&mi_id,&gossiping_h,actualizarMemoriasDisponibles);
 	printf("\n*Gossiping corriendo");
 	pthread_attr_t attr;
-				pthread_attr_init(&attr);
-				pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
+	pthread_attr_init(&attr);
+	pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
 
 	pthread_create(&servidor_h, &attr,(void *)hilo_servidor,&socket_servidor);
 	pthread_join(servidor_h, NULL);
@@ -128,20 +142,28 @@ int main(int argc, char **argv)
 	pthread_cancel(consola_h);
 	pthread_cancel(inotify_c);
 	pthread_cancel(servidor_h);
-
+	cerrarHIiloGossiping();
+	pthread_cancel(gossiping_h);
+//	cancelar_hilo_gossiping();
 	free(path_de_memoria);
 
-	printf("\n\n***FINALIZANDO PROCESO MEMORIA***\n\n");
+	printf("\n\n**********FINALIZANDO PROCESO MEMORIA**********\n\n");
 
 	//ESTO ESTA MAL, PERO QUIERO VER SI FUNCA LO MIO
 //	pthread_cancel(servidor_h, SIGKILL);
 //	pthread_cancel(gossiping_h, SIGKILL);
 	log_info(log_memoria, "[Liberando] Liberando memoria Gossiping");
-	liberar_memoria_gossiping();
+//	liberar_memoria_gossiping();
+	vaciar_las_seeds();
+	log_info(log_memoria, "[Liberando] Gossiping, destruyendo listas creadas");
+//	destruir_memoria_gossiping();
+	vaciar_la_lista_memorias_caidas();
 	printf("\nSe libero la memoria gossiping");
 	log_info(log_memoria, "[Liberando] Cerrando clientes");
 	cerrar_todos_clientes();
 	printf("\nSe liberaron los clientes\n\n");
+
+//	vaciar_las_seeds();
 	liberar_todo_por_cierre_de_modulo();
 
 

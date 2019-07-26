@@ -62,6 +62,10 @@ void liberar_memoria_gossiping(void)
 	gossiping_inicializado = false;
 }
 
+void destruir_memoria_gossiping(void){
+	list_destroy(g_lista_seeds);
+}
+
 void agregar_seed(int nro_mem, char* ip, char *puerto)
 {
 	seed_com_t *aux = malloc(sizeof(seed_com_t));
@@ -69,6 +73,41 @@ void agregar_seed(int nro_mem, char* ip, char *puerto)
 	strcpy(aux->ip,ip);
 	strcpy(aux->puerto,puerto);
 	list_add(g_lista_seeds,aux);
+}
+
+void eliminar1Seeds(seed_com_t* aEliminar){
+	free(aEliminar);
+}
+
+void vaciar_las_seeds(){
+/*	list_destroy_and_destroy_elements(g_lista_seeds, eliminar1Seeds);
+			seed_com_t* memoria;
+	*/
+	t_link_element *element = g_lista_seeds->head;
+	t_link_element *aux = NULL;
+	while (element != NULL) {
+		aux = element->next;
+		free(element->data);
+		free(element);
+		element = aux;
+		printf("SE ELIMINO 1 SEED\n\n");
+	}
+	list_destroy(g_lista_seeds);
+	printf("<'NSe vacio toda la lista 'g_lista_seeds'\n\n");
+}
+
+void vaciar_la_lista_memorias_caidas(){
+	t_link_element* element = g_memorias_caidas->head;
+	t_link_element*	aux = NULL;
+	while (element != NULL) {
+		aux = element->next;
+		free(element->data);
+		free(element);
+		element = aux;
+		printf("SE ELIMINO 1 MEMORIA CAIDA\n\n");
+	}
+	list_destroy(g_memorias_caidas);
+	printf("Se vacio toda la lista <g_memorias_caidas>\n\n");
 }
 
 void incorporar_seeds_gossiping(gos_com_t nuevas)
@@ -205,6 +244,8 @@ void registrar_memoria_caida(int i_mem)
 		pthread_mutex_lock(&gossip_cambios_mutex);
 		g_hubo_cambios = true;
 		pthread_mutex_unlock(&gossip_cambios_mutex);
+	} else {
+		free(caida);
 	}
 	aux->numMemoria = -1;
 	pthread_mutex_unlock(&gossip_table_mutex);
@@ -217,7 +258,7 @@ void correr_gossiping(id_com_t id_proceso)
 	handshake_com_t hs;
 	msg_com_t msg;
 	gos_com_t nuevas;
-
+	gos_com_t conocidas;
 //	pthread_mutex_lock(&gossip_mutex);
 
 	pthread_mutex_lock(&gossip_table_mutex);
@@ -225,7 +266,7 @@ void correr_gossiping(id_com_t id_proceso)
 	t_list *copia_seeds = list_duplicate(g_lista_seeds);
 	pthread_mutex_unlock(&gossip_table_mutex);
 
-	gos_com_t conocidas;
+
 
 	//Me armo un vector con las memorias conocidas que presentaré a las demás memorias
 	if(id_proceso == MEMORIA)
@@ -300,7 +341,11 @@ void correr_gossiping(id_com_t id_proceso)
 
 int iniciar_hilo_gossiping(id_com_t *id_proceso, pthread_t *thread, void (*funcion_actualizacion) (void))
 {
-	thread_gos_args_t *args = malloc(sizeof(thread_gos_args_t));
+	pthread_attr_t attr;
+	pthread_attr_init(&attr);
+	pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
+
+	args = malloc(sizeof(thread_gos_args_t));
 	args->id_proceso = *id_proceso;
 	args->funcion = funcion_actualizacion;
 	if(gossiping_inicializado == false){
@@ -308,10 +353,14 @@ int iniciar_hilo_gossiping(id_com_t *id_proceso, pthread_t *thread, void (*funci
 		return -1;
 	}
 	imprimirMensaje(logger_gossiping,"[INICIANDO HILO GOSSIPING] Voy a crear hilo");
-	pthread_create(thread,NULL,(void*)hilo_gossiping,args);
-	pthread_detach(*thread);
+	pthread_create(thread,&attr,(void*)hilo_gossiping,args);
+	pthread_join(*thread, NULL);
 	imprimirMensaje(logger_gossiping,"[INICIANDO HILO GOSSIPING] Hilo creado");
 	return 1;
+}
+
+void cerrarHIiloGossiping(){
+	free(args);
 }
 
 void *hilo_gossiping(thread_gos_args_t *args)

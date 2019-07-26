@@ -17,11 +17,16 @@ typedef struct{
 	void (*funcion) (void);
 }thread_gos_args_t;
 
+thread_gos_args_t* args;
+
 t_list* lista_seeds(void);
 void inicializar_estructuras_gossiping(t_log *logger, time_gos_t retardo);
 void actualizar_retardo_gossiping(time_gos_t retardo);
 void liberar_memoria_gossiping(void);
+void destruir_memoria_gossiping(void);
 void agregar_seed(int nro_mem, char* ip, char *puerto);
+void vaciar_las_seeds();
+void vaciar_la_lista_memorias_caidas();
 int conozco_memoria(seed_com_t memoria);
 void incorporar_seeds_gossiping(gos_com_t nuevas);
 gos_com_t armar_vector_seeds(id_com_t id_proceso);
