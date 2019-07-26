@@ -360,6 +360,7 @@ int iniciar_hilo_gossiping(id_com_t *id_proceso, pthread_t *thread, void (*funci
 }
 
 void cerrarHIiloGossiping(){
+	imprimirMensaje(logger_gossiping,"[CERRANDO HILO GOSSIPING] Voy a cerrar hilo");
 	free(args);
 }
 

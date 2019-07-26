@@ -1535,18 +1535,10 @@ int conectar_a_servidor(char *ip,char *puerto, id_com_t id)
 
 	if(connect(socket_cliente, server_info->ai_addr, server_info->ai_addrlen) == -1){
 		//printf("\n**No se pudo establecer conexion con el servidor**\n");
+	//	freeaddrinfo(server_info);
 		return -1;
     }
-/*
-	AddrInfo* infoaux;
-	while(server_info!=NULL){
-		infoaux = server_info->ai_next;
-		free(server_info->ai_canonname);
-			free(server_info->ai_addr);
-			free(server_info);
-			server_info= infoaux;
-	}
-*/
+
 	freeaddrinfo(server_info);
 
 //	printf("\nMe conecté!");
@@ -1558,8 +1550,20 @@ int conectar_a_servidor(char *ip,char *puerto, id_com_t id)
 	//No me interesa enviar ningún mensaje de presentación
 	hs.msg.tam = 0;
 
+//	prueba para ver si el leak venia de aqui
 	enviar_handshake(socket_cliente, hs);
 	borrar_handshake(hs);
+
+	/*es artesanal esto, aun queda ver como liberar ADDINFO
+	struct addrinfo* nextInfo = NULL;
+	while(server_info != NULL){
+		nextInfo = server_info->ai_next;
+		free(server_info->ai_addr);
+		free(server_info->ai_canonname);
+		free(server_info);
+		server_info = nextInfo;
+	}
+	*/
 
 //	printf("\nMe presenté!");
 	return socket_cliente;
