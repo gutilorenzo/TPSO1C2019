@@ -129,18 +129,21 @@ int main(int argc, char **argv)
 	char* path_de_memoria = malloc(strlen(PATH_MEMORIA_CONFIG)+1);
 	strcpy(path_de_memoria, PATH_MEMORIA_CONFIG);
 
-	pthread_create(&inotify_c,&attr, (void *)inotifyAutomatico,path_de_memoria);
-	pthread_join(inotify_c, NULL);
+//	pthread_create(&inotify_c,&attr, (void *)inotifyAutomatico,path_de_memoria);
+//	pthread_join(inotify_c, NULL);
 	printf("\n*Hilo de actualización de retardos corriendo");
 
 	printf("\n\n***PROCESO MEMORIA CARGADO COMPLETAMENTE***\n\n");
 
-	pthread_create(&consola_h,NULL,(void *)hilo_consola,&socket_lfs);
+	pthread_attr_t attrConsola;
+		pthread_attr_init(&attrConsola);
+		pthread_attr_setdetachstate(&attrConsola, PTHREAD_CREATE_JOINABLE);
+	pthread_create(&consola_h,&attrConsola,(void *)hilo_consola,&socket_lfs);
 
 //pthread_detach(journalHilo);
 	pthread_join(consola_h,NULL);
 	pthread_cancel(consola_h);
-	pthread_cancel(inotify_c);
+//	pthread_cancel(inotify_c);
 	pthread_cancel(servidor_h);
 	cerrarHIiloGossiping();
 	pthread_cancel(gossiping_h);
@@ -288,6 +291,7 @@ void* hilo_consola(int * socket_p){
 //				borrar_respuesta(respuesta);
 				break;
 			default:
+				mostrarDatosGossiping();
 				respuesta = armar_respuesta(RESP_ERROR_PEDIDO_DESCONOCIDO, "Pedido desconocido");
 				break;
 		}
@@ -509,9 +513,12 @@ int responder_gossiping(gos_com_t recibido,id_com_t id_proceso,int socket)
 	incorporar_seeds_gossiping(recibido);
 	if(enviar_gossiping(socket,conocidas) == -1){
 		borrar_gossiping(conocidas);
+		borrar_gossiping(recibido);
 		return -1;
 	}
 	borrar_gossiping(conocidas);
+	borrar_gossiping(recibido);
+
 	return 1;
 }
 

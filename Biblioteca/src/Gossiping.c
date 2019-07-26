@@ -113,6 +113,32 @@ void vaciar_la_lista_memorias_caidas(){
 	printf("Se vacio toda la lista <g_memorias_caidas>\n\n");
 }
 
+void mostrarDatosGossiping() {
+	t_link_element* element = g_memorias_caidas->head;
+	t_link_element*	aux = NULL;
+	seed_com_t* seed;
+	int i = 0;
+	printf("\nDATOS MEMORIAS CAIDAS:\n");
+	while (i < g_memorias_caidas->elements_count) {
+		aux = element->next;
+		seed = element->data;
+		element = aux;
+		printf("\nMEMORIA: %d-%s-%s\n\n", seed->numMemoria, seed->ip, seed->puerto);
+		i++;
+	}
+	element = g_lista_seeds->head;
+	aux = NULL;
+	i = 0;
+	printf("\n\n\n\nDATOS MEMORIAS QUE ESTAN CONECTADAS:\n\n");
+	while (i < g_lista_seeds->elements_count) {
+		aux = element->next;
+		seed = element->data;
+		element = aux;
+		printf("\nMEMORIA: %d-%s-%s\n", seed->numMemoria, seed->ip, seed->puerto);
+		i++;
+	}
+}
+
 void incorporar_seeds_gossiping(gos_com_t nuevas)
 {
 	seed_com_t *nueva_aux;
