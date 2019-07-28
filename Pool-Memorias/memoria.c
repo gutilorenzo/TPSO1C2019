@@ -1061,7 +1061,7 @@ void recargarConfiguracion(char *path_config){
 	mutexBloquear(&mutex_retardos_memoria);
 
 	t_config* auxConfigFile = config_create(path_config);
-
+	log_info(log_memoria, "[ARCHIVO CONFIG MODIFICADO] ACTUALIZANDO RETARDOS CONFIGURACION...");
 	if (auxConfigFile != NULL) {
 
 		log_info(log_memoria, "[ACTUALIZANDO RETARDOS] LEYENDO CONFIGURACION...");
@@ -1074,7 +1074,7 @@ void recargarConfiguracion(char *path_config){
 					arc_config->retardo_mem);
 
 		} else {
-			log_error(log_memoria, "[ACTUALIZANDO RETARDOS] NO HAY RETARDO CONFIGURADO");
+			log_error(log_memoria, "[ACTUALIZANDO RETARDOS] NO HAY RETARDO CONFIGURADO, le dejo el que tenia");
 		} // RETARDO DE MEMORIA
 
 		if (config_has_property(auxConfigFile, "RETARDO_FS")) {
@@ -1084,7 +1084,7 @@ void recargarConfiguracion(char *path_config){
 					arc_config->retardo_fs);
 
 		} else {
-			log_error(log_memoria, "[ACTUALIZANDO RETARDOS] NO HAY RETARDO DE FS CONFIGURADO");
+			log_error(log_memoria, "[ACTUALIZANDO RETARDOS] NO HAY RETARDO DE FS CONFIGURADO, le dejo el que tenia");
 		} // RETARDO FS
 
 		if (config_has_property(auxConfigFile, "RETARDO_JOURNAL")) {
@@ -1097,7 +1097,7 @@ void recargarConfiguracion(char *path_config){
 
 		} else {
 			log_error(log_memoria,
-					"[ACTUALIZANDO RETARDOS] NO HAY RETARDO DE JOURNALING CONFIGURADO");
+					"[ACTUALIZANDO RETARDOS] NO HAY RETARDO DE JOURNALING CONFIGURADO, le dejo el que tenia");
 		} // RETARDO JOURNALING
 
 		if (config_has_property(auxConfigFile, "RETARDO_GOSSIPING")) {
@@ -1109,7 +1109,7 @@ void recargarConfiguracion(char *path_config){
 
 		} else {
 			log_error(log_memoria,
-					"[ACTUALIZANDO RETARDOS] NO HAY RETARDO DE GOSSIPING CONFIGURADO");
+					"[ACTUALIZANDO RETARDOS] NO HAY RETARDO DE GOSSIPING CONFIGURADO, le dejo el que tenia");
 		} // RETARDO GOSSIPING
 
 	} else {

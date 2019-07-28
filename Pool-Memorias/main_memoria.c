@@ -122,15 +122,15 @@ int main(int argc, char **argv)
 	pthread_attr_init(&attr);
 	pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
 
-	pthread_create(&servidor_h, &attr,(void *)hilo_servidor,&socket_servidor);
-	pthread_join(servidor_h, NULL);
+	pthread_create(&servidor_h, NULL,(void *)hilo_servidor,&socket_servidor);
+	pthread_detach(servidor_h);
 	printf("\n*Servidor corriendo");
 
 	char* path_de_memoria = malloc(strlen(PATH_MEMORIA_CONFIG)+1);
 	strcpy(path_de_memoria, PATH_MEMORIA_CONFIG);
 
-//	pthread_create(&inotify_c,&attr, (void *)inotifyAutomatico,path_de_memoria);
-//	pthread_join(inotify_c, NULL);
+	pthread_create(&inotify_c,NULL, (void *)inotifyAutomatico,path_de_memoria);
+	pthread_detach(inotify_c);
 	printf("\n*Hilo de actualización de retardos corriendo");
 
 	printf("\n\n***PROCESO MEMORIA CARGADO COMPLETAMENTE***\n\n");
@@ -138,12 +138,12 @@ int main(int argc, char **argv)
 	pthread_attr_t attrConsola;
 		pthread_attr_init(&attrConsola);
 		pthread_attr_setdetachstate(&attrConsola, PTHREAD_CREATE_JOINABLE);
-	pthread_create(&consola_h,&attrConsola,(void *)hilo_consola,&socket_lfs);
+	pthread_create(&consola_h,NULL,(void *)hilo_consola,&socket_lfs);
 
 //pthread_detach(journalHilo);
 	pthread_join(consola_h,NULL);
 	pthread_cancel(consola_h);
-//	pthread_cancel(inotify_c);
+	pthread_cancel(inotify_c);
 	pthread_cancel(servidor_h);
 	cerrarHIiloGossiping();
 	pthread_cancel(gossiping_h);
