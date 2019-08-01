@@ -1,0 +1,95 @@
+ARCHIVO PARA SEGUIMIENTO DE TABLAS
+
+
+
+Ejecutado comando SELECT COLORS 1
+
+****************ESTADO DE TABLAS****************
+
+
+TABLA COLORS
+       key;                         value;           timestamp
+         1;                       "Black";       1564628656937
+
+
+Ejecutado comando SELECT COLORS 2
+
+****************ESTADO DE TABLAS****************
+
+
+TABLA COLORS
+       key;                         value;           timestamp
+         1;                       "Black";       1564628656937
+         2;                         "Red";       1564628656527
+
+
+Ejecutado comando SELECT MARCAS 1
+
+****************ESTADO DE TABLAS****************
+
+
+TABLA MARCAS
+       key;                         value;           timestamp
+         1;                      "Adidas";       1564628678771
+
+
+
+TABLA COLORS
+       key;                         value;           timestamp
+         1;                       "Black";       1564628656937
+         2;                         "Red";       1564628656527
+
+
+Ejecutado comando SELECT CELULARES 1
+
+****************ESTADO DE TABLAS****************
+
+
+TABLA CELULARES
+       key;                         value;           timestamp
+         1;                      "iPhone";       1564628700858
+
+
+
+TABLA MARCAS
+       key;                         value;           timestamp
+         1;                      "Adidas";       1564628678771
+
+
+
+TABLA COLORS
+       key;                         value;           timestamp
+         1;                       "Black";       1564628656937
+         2;                         "Red";       1564628656527
+
+
+Ejecutado comando SELECT CELULARES 2
+
+****************ESTADO DE TABLAS****************
+
+
+TABLA CELULARES
+       key;                         value;           timestamp
+         1;                      "iPhone";       1564628700858
+         2;                     "Android";       1564628701370
+
+
+
+TABLA MARCAS
+       key;                         value;           timestamp
+         1;                      "Adidas";       1564628678771
+
+
+
+TABLA COLORS
+       key;                         value;           timestamp
+         1;                       "Black";       1564628656937
+         2;                         "Red";       1564628656527
+
+
+Ejecutado JOURNAL AUTOMÁTICO
+
+
+********FINALIZANDO********
+
+

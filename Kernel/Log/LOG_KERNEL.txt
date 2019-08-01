@@ -1,53 +1,1391 @@
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Ya creado el Log, continuamos cargando la estructura de configuracion, llamando a la funcion.
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Por reservar memoria para variable de configuracion.
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Por crear el archivo de config para levantar archivo con datos.
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Kernel: Leyendo Archivo de Configuracion...
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Almacenando el puerto
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): El puerto de la memoria es: 8001
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Almacenando la IP de la Memoria
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): La Ip de la memoria es: "192.168.1.2"
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Almancenando el Quantum del planificador
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): El Quantum del planificador es: 4
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Almacenando el valor del Multiprocesamiento para el Planificador
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): El grado de multiprocesamiento del planificador es: 3
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Almacenando el valor del Metadata Refresh para el Kernel
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): El valor del Metadata Refresh es: 10000
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Almacenando el valor del Sleep Ejecucion para el Kernel
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): El valor del Sleep Ejecucion es: 5000
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Cargamos todo lo que se encontro en el archivo de configuracion. Liberamos la variable config que fue utlizada para navegar el archivo de configuracion
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): Devuelta en Main, Funcion cargarConfiguracion() finalizo.
-[INFO] 11:46:45:462 Proceso Kernel/(26854:26854): El valor que le vamos a poner al semaforo de multiprocesamiento es: 3
-[INFO] 11:46:45:463 Proceso Kernel/(26854:26854): Creamos thread para Consola
-[INFO] 11:46:45:463 Proceso Kernel/(26854:26855): En el hilo de consola
-[INFO] 11:46:56:923 Proceso Kernel/(26854:26855): En funcion planificar, por agregar la linea a la cola de nuevos
-[INFO] 11:46:56:923 Proceso Kernel/(26854:26855): Por bloquear Mutex de Cola Nuevos
-[INFO] 11:46:56:923 Proceso Kernel/(26854:26855): Se desbloqueo la cola de nuevos y se agrego la linea a la cola de nuevos
-[INFO] 11:46:56:923 Proceso Kernel/(26854:26855): Por Crear estructuras administrativas
-[INFO] 11:46:56:923 Proceso Kernel/(26854:26855): Por llamar a mutexBloquear y aumentar countPID: 0
-[INFO] 11:46:56:923 Proceso Kernel/(26854:26855): Ya desbloqueamos el mutex y countPID quedo en: 1
-[INFO] 11:46:56:923 Proceso Kernel/(26854:26855): Por crear el PCB
-[INFO] 11:46:56:923 Proceso Kernel/(26854:26855): Creando PCB ==> PID: 1
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): En la posicion 0 del array esta el valor run
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): En la posicion 1 del array esta el valor animales.lql
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): En la condicion de que no es un comando RUN
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): PCB creado ==> PID: 1
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): Retornamos la estructura administrativa, se encuentra en 0xb6b117b0
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): Por agregar el PCB a Listo
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): Verificamos si la cola de nuevos tiene un elemento
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): Sacamos el elemento de la cola de nuevos
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): Bloqueamos Mutex para poder insertar el elemento en la cola de listos
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): Salimos de la funcion AgregarAListo
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): El valor del semaforo contador multiprocesamiento, antes de agregar a ejecutar un proceso es: 3
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): Bloqueamos Mutex para poder sacar el elemento en la cola de listos y colocarlo en ejecucion
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): El valor del semaforo contador multiprocesamiento, despues de agregar a ejecutar un proceso es: 2
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): En funcion nuevoSocket en el Proyecto Biblioteca, por llamar a funcion Socket()
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): Por retornar el socket creado: 4
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): El Socket creado es: 4 .
-[INFO] 11:46:56:924 Proceso Kernel/(26854:26855): por llamar a la funcion connectarSocket() para conectarnos con Memoria
-[INFO] 11:46:56:925 Proceso Kernel/(26854:26855): PRUEBA: 8001 
-[INFO] 11:46:56:925 Proceso Kernel/(26854:26855): [SOCKETS] No se pudo realizar la conexión entre el socket y el servidor.
-[ERROR] 11:46:56:925 Proceso Kernel/(26854:26855): Hubo un problema al querer Conectarnos con Memoria. Salimos del proceso
-[INFO] 11:46:56:925 Proceso Kernel/(26854:26855): Desbloqueamos el Mutex de Ejecucion y el PCB fue encolado a la cola de Ejecucion.
-[INFO] 11:46:56:925 Proceso Kernel/(26854:26855): El valor del semaforo contador multiprocesamiento, antes de colocar un proceso en exit es: 2
-[INFO] 11:46:56:925 Proceso Kernel/(26854:26855): El valor del semaforo contador multiprocesamiento, despues de agregar un proceso a la cola exit es: 3
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [MAIN]- Por cargar configuracion desde archivo.
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]-Por reservar memoria para variable de configuracion.
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]-Por crear el archivo de config para levantar archivo con datos.
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- Leyendo Archivo de Configuracion...
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]-Almacenando el puerto
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- El puerto de la memoria es: 8001
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- Almacenando la IP de la Memoria
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- La Ip de la memoria es: 127.0.0.1
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- Almancenando el Quantum del planificador
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- El Quantum del planificador es: 3
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- Almacenando el valor del Multiprocesamiento para el Planificador
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- El grado de multiprocesamiento del planificador es: 1
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- Almacenando el valor del Metadata Refresh para el Kernel
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- El valor del Metadata Refresh es: 15000
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- Almacenando el valor del Sleep Ejecucion para el Kernel
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- El valor del Sleep Ejecucion es: 100
+[ERROR] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- El archivo de configuracion no tiene el valor del Retardo de Gossiping. Se utiliza 20000 milisegundos
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [CARGAR CONFIGURACION]- Cargamos todo lo que se encontro en el archivo de configuracion. Liberamos la variable config que fue utlizada para navegar el archivo de configuracion
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [MAIN]- La carga de archivo de configuracion finalizo.
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [MAIN]- Hilo de actualización de retardos y Quantum corriendo
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [INICIANDO HILO GOSSIPING] Voy a crear hilo
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [INICIANDO HILO GOSSIPING] Hilo creado
+[INFO] 00:03:27:650 [MAIN]- Proceso Kernel./(13692:13692): [MAIN]- Creamos hilo para actualizar la metadata de las tablas
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Entrando a hilo
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13692): [MAIN]- Creamos hilo para Consola.
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Soy proceso 2
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Entrando a hilo de actualizacion
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr gossiping
+[ERROR] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13692): [MAIN]- Creamos hilo para Metricas.
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Entrando a nivel 0 de multiprogramacion
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- En el hilo de consola.
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8001>
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria de alta en el pool. 1-127.0.0.1-8001
+
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Nueva memoria conocida. 2-127.0.0.1-8010
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [actualizarMemoriasDisponibles]- Cantidad Memorias: 1
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:03:27:651 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] La próxima ejecución será en 20000 milisegundos
+[INFO] 00:03:42:651 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[ERROR] 00:03:42:651 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 00:03:47:652 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:03:47:652 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:03:47:652 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:03:47:652 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8001>
+[INFO] 00:03:47:652 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:03:47:652 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 1-127.0.0.1-8001
+
+[INFO] 00:03:47:652 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:03:47:652 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8010>
+[INFO] 00:03:47:652 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:03:47:653 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria de alta en el pool. 2-127.0.0.1-8010
+
+[INFO] 00:03:47:653 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:03:47:653 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:03:47:653 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:03:47:653 [MAIN]- Proceso Kernel./(13692:13694): [actualizarMemoriasDisponibles]- Cantidad Memorias: 2
+[INFO] 00:03:47:653 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:03:47:653 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] La próxima ejecución será en 20000 milisegundos
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Write latency: 0.00ms
+[ERROR] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- No tengo memorias para mandar el describe
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Reads: 0
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Writes: 0
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Reads: 0
+[INFO] 00:03:57:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Writes: 0
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Viene el comando en la cadena: ADD
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Recibimos el comando: ADD
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Se devuelve el valor 6
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- El Enum correspondiente para el comando es: 6
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- ADD ingresado.
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- Llego el comando ADD.
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [buscarCriterio]- Recibimos el criterio: SC
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [buscarCriterio]- Se devuelve el valor 0
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [buscarMemoria]- Voy a buscar memoria 1
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [buscarMemoria]- Se encontro memoria 1: Ip 127.0.0.1. Puerto 8001
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- La memoria numero 1 ha sido encontrada.
+
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- El criterio para asociar es el: SC,corresponde al valor: 0
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaCriterio]- Memoria 1 agregada al criterio 0
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaAsociada]- La memoria 1 fue agregada a la lista de memorias asociadas
+[INFO] 00:03:58:502 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaMetricas]- Inicializando estructuras para las metricas de la memoria 1
+[INFO] 00:04:07:653 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:04:07:653 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:04:07:653 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:04:07:653 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8001>
+[INFO] 00:04:07:654 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:04:07:654 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 1-127.0.0.1-8001
+
+[INFO] 00:04:07:654 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:04:07:654 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8010>
+[INFO] 00:04:07:654 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:04:07:655 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 2-127.0.0.1-8010
+
+[INFO] 00:04:07:655 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:04:07:655 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:04:07:655 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:04:07:655 [MAIN]- Proceso Kernel./(13692:13694): [actualizarMemoriasDisponibles]- Cantidad Memorias: 2
+[INFO] 00:04:07:655 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:04:07:655 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] La próxima ejecución será en 20000 milisegundos
+[INFO] 00:04:12:651 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 00:04:12:651 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:12:651 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:12:651 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:12:651 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- Voy a enviar un describe global a la memoria 1
+[WARNING] 00:04:12:653 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- La memoria 1 no pudo resolver el describe. Error <2>
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Viene el comando en la cadena: RUN
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Recibimos el comando: RUN
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Se devuelve el valor 7
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- El Enum correspondiente para el comando es: 7
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Entramos por comandoPlanificable (insert,select,describe,drop,create,run), a Planificar
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Por bloquear Mutex de Cola Nuevos.
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Se desbloqueo la cola de nuevos.
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Se agrego a la cola la linea RUN simple_sc.lql : .
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Size colaNuevos: 1
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- Por llamar a mutexBloquear y aumentar countPID: 0
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- CountPID quedo en: 1
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- Por llamar a crearPCB
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Creando PCB ==> PID: 1
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- En la posicion 0 del array esta el valor RUN
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- En la posicion 1 del array esta el valor simple_sc.lql
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Vino Run de comando, calculamos cuantas lineas tiene el archivo para llenar PCB.
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- Recorremos para calcular la cantidad de lineas que tiene el archivo.
+[INFO] 00:04:16:181 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- El archivo se encontró con exito. Empezamos a leer para calcular la cantidad de lineas.
+[INFO] 00:04:16:217 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- Fuera del while principal, la cantidad de lineas del archivo es: 9
+[INFO] 00:04:16:217 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- Por retornar contador
+[INFO] 00:04:16:217 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- La rafaga del run es: 9
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- EN PCB: simple_sc.lql
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- EN PCB: 0x7ff2d0002ac0
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Terminamos de completar PCB para RUN.
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Retornamos direccion del PCB en:  0x7ff2d00243b0.
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- PCB creado ==> PID: 1
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [planificadorLargoPlazo]- Por llamar a agregarAListo para pasarle el PCB creado.
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Por sacar el elemento de la cola de nuevos
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Bloqueamos Mutex para poder insertar el elemento en la cola de listos.
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]-[DEBUG2]- En la posicion 0 de la cola de listos esta el PID: 1
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]-  Size colaListos: 1
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Por hacer POST a sem_planificador
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Salimos de la funcion AgregarAListo
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [obtenerColaListos]- [DEBUG] El que voy a ejecutar es el PID: 1
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [agregarAEjecutando]- Size colaEjecucion: 1
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Ejecutando el nivel: 0
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entrando a ejecutar rafaga de PID: 1
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 1
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0002ac0
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: CREATE COLORS SC 4 600000
+
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido CREATE COLORS SC 4 600000
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [resolverCreate]- Memoria elegida: 1
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: CREATE COLORS SC 4 600000
+[INFO] 00:04:16:218 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: CREATE COLORS SC 4 600000
+[INFO] 00:04:16:221 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <CREATE COLORS SC 4 600000> se realizó correctamente
+[INFO] 00:04:16:221 [MAIN]- Proceso Kernel./(13692:13696): [resolverCreate]- El create de la tabla COLORS se realizo correctamente. Se agrega la metadata de la tabla
+[INFO] 00:04:16:221 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterio]- Recibimos el criterio: SC
+[INFO] 00:04:16:221 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterio]- Se devuelve el valor 0
+[INFO] 00:04:16:221 [MAIN]- Proceso Kernel./(13692:13696): [agregarTablaCriterio]- Se agregó la tabla COLORS a la lista de tablas. Criterio: SC
+[INFO] 00:04:16:221 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido CREATE COLORS SC 4 600000 resuelto OK
+[INFO] 00:04:16:221 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:16:221 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 2
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0002ac0
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: INSERT COLORS 1 "Blue"
+
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido INSERT COLORS 1 "Blue"
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert | DEBUG] Cant args = 3
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla COLORS
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla COLORS es SC
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- La tabla es de criterio SC
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- Memoria elegida: 1
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:16:321 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:16:322 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:16:322 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: INSERT COLORS 1 "Blue"
+[INFO] 00:04:16:322 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: INSERT COLORS 1 "Blue"
+[INFO] 00:04:16:322 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <INSERT COLORS 1 "Blue"> se realizó correctamente
+[INFO] 00:04:16:322 [MAIN]- Proceso Kernel./(13692:13696): [contar_insert]- Agregando informacion de insert. Memoria: 1. Criterio: SC. Duracion: 1ms
+[INFO] 00:04:16:322 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido INSERT COLORS 1 "Blue" resuelto OK
+[INFO] 00:04:16:322 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:16:322 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 3
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0002ac0
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT COLORS 1
+
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT COLORS 1
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla COLORS
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla COLORS es SC
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SC
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT COLORS 1
+[INFO] 00:04:16:423 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT COLORS 1
+[INFO] 00:04:16:425 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT COLORS 1> se realizó correctamente
+[INFO] 00:04:16:425 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Blue">
+[INFO] 00:04:16:425 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: SC. Duracion: 1ms
+[INFO] 00:04:16:425 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT COLORS 1 resuelto OK
+[INFO] 00:04:16:425 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT COLORS 1 es "Blue"
+[INFO] 00:04:16:425 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:16:425 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- Por sacar de ejecucion
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- colaEjecucion (s): 0
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Bloqueamos Mutex para poder insertar el elemento en la cola de listos.
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-[DEBUG2]- En la posicion 0 de la cola de listos esta el PID: 1
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-  Size colaListos: 1
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Por hacer POST a sem_planificador
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Salimos de la funcion AgregarAListo
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [obtenerColaListos]- [DEBUG] El que voy a ejecutar es el PID: 1
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [agregarAEjecutando]- Size colaEjecucion: 1
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Ejecutando el nivel: 0
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entrando a ejecutar rafaga de PID: 1
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 1
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:16:525 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0002ac0
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: INSERT COLORS 2 "Red"
+
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido INSERT COLORS 2 "Red"
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert | DEBUG] Cant args = 3
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla COLORS
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla COLORS es SC
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- La tabla es de criterio SC
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- Memoria elegida: 1
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: INSERT COLORS 2 "Red"
+[INFO] 00:04:16:526 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: INSERT COLORS 2 "Red"
+[INFO] 00:04:16:528 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <INSERT COLORS 2 "Red"> se realizó correctamente
+[INFO] 00:04:16:528 [MAIN]- Proceso Kernel./(13692:13696): [contar_insert]- Agregando informacion de insert. Memoria: 1. Criterio: SC. Duracion: 2ms
+[INFO] 00:04:16:528 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido INSERT COLORS 2 "Red" resuelto OK
+[INFO] 00:04:16:528 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:16:528 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 2
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0002ac0
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT COLORS 2
+
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT COLORS 2
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla COLORS
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla COLORS es SC
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SC
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:16:629 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:16:630 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:16:630 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT COLORS 2
+[INFO] 00:04:16:630 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT COLORS 2
+[INFO] 00:04:16:631 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT COLORS 2> se realizó correctamente
+[INFO] 00:04:16:631 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Red">
+[INFO] 00:04:16:631 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: SC. Duracion: 2ms
+[INFO] 00:04:16:631 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT COLORS 2 resuelto OK
+[INFO] 00:04:16:631 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT COLORS 2 es "Red"
+[INFO] 00:04:16:631 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:16:631 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:16:731 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:16:731 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 3
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0002ac0
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT COLORS 2
+
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT COLORS 2
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla COLORS
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla COLORS es SC
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SC
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:16:732 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:16:733 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:16:733 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT COLORS 2
+[INFO] 00:04:16:733 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT COLORS 2
+[INFO] 00:04:16:734 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT COLORS 2> se realizó correctamente
+[INFO] 00:04:16:735 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Red">
+[INFO] 00:04:16:735 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: SC. Duracion: 2ms
+[INFO] 00:04:16:735 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT COLORS 2 resuelto OK
+[INFO] 00:04:16:735 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT COLORS 2 es "Red"
+[INFO] 00:04:16:735 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:16:735 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- Por sacar de ejecucion
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- colaEjecucion (s): 0
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Bloqueamos Mutex para poder insertar el elemento en la cola de listos.
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-[DEBUG2]- En la posicion 0 de la cola de listos esta el PID: 1
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-  Size colaListos: 1
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Por hacer POST a sem_planificador
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Salimos de la funcion AgregarAListo
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [obtenerColaListos]- [DEBUG] El que voy a ejecutar es el PID: 1
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [agregarAEjecutando]- Size colaEjecucion: 1
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Ejecutando el nivel: 0
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entrando a ejecutar rafaga de PID: 1
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 1
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0002ac0
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT COLORS 1
+
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT COLORS 1
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla COLORS
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla COLORS es SC
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SC
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT COLORS 1
+[INFO] 00:04:16:835 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT COLORS 1
+[INFO] 00:04:16:836 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT COLORS 1> se realizó correctamente
+[INFO] 00:04:16:836 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Blue">
+[INFO] 00:04:16:836 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: SC. Duracion: 1ms
+[INFO] 00:04:16:836 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT COLORS 1 resuelto OK
+[INFO] 00:04:16:836 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT COLORS 1 es "Blue"
+[INFO] 00:04:16:836 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:16:836 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 2
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0002ac0
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: INSERT COLORS 1 "Black"
+
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido INSERT COLORS 1 "Black"
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert | DEBUG] Cant args = 3
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla COLORS
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla COLORS es SC
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- La tabla es de criterio SC
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:04:16:936 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- Memoria elegida: 1
+[INFO] 00:04:16:937 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:16:937 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:16:937 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:16:937 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: INSERT COLORS 1 "Black"
+[INFO] 00:04:16:937 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: INSERT COLORS 1 "Black"
+[INFO] 00:04:16:937 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <INSERT COLORS 1 "Black"> se realizó correctamente
+[INFO] 00:04:16:937 [MAIN]- Proceso Kernel./(13692:13696): [contar_insert]- Agregando informacion de insert. Memoria: 1. Criterio: SC. Duracion: 1ms
+[INFO] 00:04:16:937 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido INSERT COLORS 1 "Black" resuelto OK
+[INFO] 00:04:16:937 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:16:937 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 3
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0002ac0
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT COLORS 1
+
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT COLORS 1
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla COLORS
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla COLORS es SC
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SC
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT COLORS 1
+[INFO] 00:04:17:38 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT COLORS 1
+[INFO] 00:04:17:39 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT COLORS 1> se realizó correctamente
+[INFO] 00:04:17:39 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Black">
+[INFO] 00:04:17:39 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: SC. Duracion: 1ms
+[INFO] 00:04:17:39 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT COLORS 1 resuelto OK
+[INFO] 00:04:17:39 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT COLORS 1 es "Black"
+[INFO] 00:04:17:39 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:17:39 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:17:139 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:17:139 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entro para exit porque termino la ejecucion
+[INFO] 00:04:17:139 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Size colaExit antes: 0.
+[INFO] 00:04:17:139 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- Por sacar de ejecucion
+[INFO] 00:04:17:139 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- colaEjecucion (s): 0
+[INFO] 00:04:17:139 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- La direccion del archivo a cerrar: 0x7ff2d0002ac0.
+[INFO] 00:04:17:139 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Archivo cerrado.
+[INFO] 00:04:17:139 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Resultado de sacar comando de ejecucion: 0
+[INFO] 00:04:17:139 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Size colaExit despues: 1.
+[INFO] 00:04:17:139 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- La linea: RUN simple_sc.lql  termino de ejecutarse.
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Viene el comando en la cadena: ADD
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Recibimos el comando: ADD
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Se devuelve el valor 6
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- El Enum correspondiente para el comando es: 6
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- ADD ingresado.
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- Llego el comando ADD.
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [buscarCriterio]- Recibimos el criterio: EC
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [buscarCriterio]- Se devuelve el valor 2
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [buscarMemoria]- Voy a buscar memoria 1
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [buscarMemoria]- Se encontro memoria 1: Ip 127.0.0.1. Puerto 8001
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- La memoria numero 1 ha sido encontrada.
+
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- El criterio para asociar es el: EC,corresponde al valor: 2
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaCriterio]- Memoria 1 agregada al criterio 2
+[INFO] 00:04:25:798 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaAsociada]- La memoria 1 ya estaba asociada a algun criterio antes
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Read latency: 1.40ms
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Write latency: 1.33ms
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Reads: 5
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Writes: 3
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Reads: 0
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Writes: 0
+[INFO] 00:04:27:651 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Memoria 1. Memory load 100.0%
+[INFO] 00:04:27:653 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 00:04:27:653 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:27:653 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:27:653 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:27:653 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- Voy a enviar un describe global a la memoria 1
+[INFO] 00:04:27:655 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:04:27:655 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:04:27:655 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:04:27:655 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8001>
+[INFO] 00:04:27:655 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 1-127.0.0.1-8001
+
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8010>
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- La memoria 1 respondió con COLORS|SC|4|600000
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: SC
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 0
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <0> COLORS 0
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se va a actualizar la lista de tablas
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se actualizó la lista de tablas
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 2-127.0.0.1-8010
+
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [actualizarMemoriasDisponibles]- Cantidad Memorias: 2
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:04:27:656 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] La próxima ejecución será en 20000 milisegundos
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Viene el comando en la cadena: ADD
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Recibimos el comando: ADD
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Se devuelve el valor 6
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- El Enum correspondiente para el comando es: 6
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- ADD ingresado.
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- Llego el comando ADD.
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [buscarCriterio]- Recibimos el criterio: EC
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [buscarCriterio]- Se devuelve el valor 2
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [buscarMemoria]- Voy a buscar memoria 2
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [buscarMemoria]- Se encontro memoria 2: Ip 127.0.0.1. Puerto 8010
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- La memoria numero 2 ha sido encontrada.
+
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- El criterio para asociar es el: EC,corresponde al valor: 2
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaCriterio]- Memoria 2 agregada al criterio 2
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaAsociada]- La memoria 2 fue agregada a la lista de memorias asociadas
+[INFO] 00:04:29:558 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaMetricas]- Inicializando estructuras para las metricas de la memoria 2
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Viene el comando en la cadena: RUN
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Recibimos el comando: RUN
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Se devuelve el valor 7
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- El Enum correspondiente para el comando es: 7
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Entramos por comandoPlanificable (insert,select,describe,drop,create,run), a Planificar
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Por bloquear Mutex de Cola Nuevos.
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Se desbloqueo la cola de nuevos.
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Se agrego a la cola la linea RUN simple_ec.lql : .
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Size colaNuevos: 1
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- Por llamar a mutexBloquear y aumentar countPID: 1
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- CountPID quedo en: 2
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- Por llamar a crearPCB
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Creando PCB ==> PID: 2
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- En la posicion 0 del array esta el valor RUN
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- En la posicion 1 del array esta el valor simple_ec.lql
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Vino Run de comando, calculamos cuantas lineas tiene el archivo para llenar PCB.
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- Recorremos para calcular la cantidad de lineas que tiene el archivo.
+[INFO] 00:04:38:334 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- El archivo se encontró con exito. Empezamos a leer para calcular la cantidad de lineas.
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- Fuera del while principal, la cantidad de lineas del archivo es: 7
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- Por retornar contador
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- La rafaga del run es: 7
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- EN PCB: simple_ec.lql
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- EN PCB: 0x7ff2d0026860
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Terminamos de completar PCB para RUN.
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Retornamos direccion del PCB en:  0x7ff2d00260c0.
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- PCB creado ==> PID: 2
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [planificadorLargoPlazo]- Por llamar a agregarAListo para pasarle el PCB creado.
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Por sacar el elemento de la cola de nuevos
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Bloqueamos Mutex para poder insertar el elemento en la cola de listos.
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]-[DEBUG2]- En la posicion 0 de la cola de listos esta el PID: 2
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]-  Size colaListos: 1
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Por hacer POST a sem_planificador
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Salimos de la funcion AgregarAListo
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [obtenerColaListos]- [DEBUG] El que voy a ejecutar es el PID: 2
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [agregarAEjecutando]- Size colaEjecucion: 1
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Ejecutando el nivel: 0
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entrando a ejecutar rafaga de PID: 2
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 1
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026860
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: CREATE MARCAS EC 4 600000
+
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido CREATE MARCAS EC 4 600000
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [resolverCreate]- Memoria elegida: 1
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:38:363 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:38:364 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:38:364 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: CREATE MARCAS EC 4 600000
+[INFO] 00:04:38:364 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: CREATE MARCAS EC 4 600000
+[INFO] 00:04:38:366 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <CREATE MARCAS EC 4 600000> se realizó correctamente
+[INFO] 00:04:38:366 [MAIN]- Proceso Kernel./(13692:13696): [resolverCreate]- El create de la tabla MARCAS se realizo correctamente. Se agrega la metadata de la tabla
+[INFO] 00:04:38:366 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterio]- Recibimos el criterio: EC
+[INFO] 00:04:38:366 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterio]- Se devuelve el valor 2
+[INFO] 00:04:38:366 [MAIN]- Proceso Kernel./(13692:13696): [agregarTablaCriterio]- Se agregó la tabla MARCAS a la lista de tablas. Criterio: EC
+[INFO] 00:04:38:366 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido CREATE MARCAS EC 4 600000 resuelto OK
+[INFO] 00:04:38:366 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:38:366 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 2
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026860
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: INSERT MARCAS 1 "Nike"
+
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido INSERT MARCAS 1 "Nike"
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert | DEBUG] Cant args = 3
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla MARCAS
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla MARCAS es EC
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- La tabla es de criterio EC
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 2
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- Memoria elegida: 2
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: INSERT MARCAS 1 "Nike"
+[INFO] 00:04:38:466 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: INSERT MARCAS 1 "Nike"
+[INFO] 00:04:38:467 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <INSERT MARCAS 1 "Nike"> se realizó correctamente
+[INFO] 00:04:38:467 [MAIN]- Proceso Kernel./(13692:13696): [contar_insert]- Agregando informacion de insert. Memoria: 2. Criterio: EC. Duracion: 1ms
+[INFO] 00:04:38:467 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido INSERT MARCAS 1 "Nike" resuelto OK
+[INFO] 00:04:38:467 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:38:467 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 3
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026860
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT MARCAS 1
+
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT MARCAS 1
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla MARCAS
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla MARCAS es EC
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio EC
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 2
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 2
+[INFO] 00:04:38:567 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:38:568 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:38:568 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:38:568 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT MARCAS 1
+[INFO] 00:04:38:568 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT MARCAS 1
+[INFO] 00:04:38:568 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT MARCAS 1> se realizó correctamente
+[INFO] 00:04:38:568 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Nike">
+[INFO] 00:04:38:568 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 2. Criterio: EC. Duracion: 1ms
+[INFO] 00:04:38:568 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT MARCAS 1 resuelto OK
+[INFO] 00:04:38:568 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT MARCAS 1 es "Nike"
+[INFO] 00:04:38:569 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:38:569 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- Por sacar de ejecucion
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- colaEjecucion (s): 0
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Bloqueamos Mutex para poder insertar el elemento en la cola de listos.
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-[DEBUG2]- En la posicion 0 de la cola de listos esta el PID: 2
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-  Size colaListos: 1
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Por hacer POST a sem_planificador
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Salimos de la funcion AgregarAListo
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [obtenerColaListos]- [DEBUG] El que voy a ejecutar es el PID: 2
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [agregarAEjecutando]- Size colaEjecucion: 1
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Ejecutando el nivel: 0
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entrando a ejecutar rafaga de PID: 2
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 1
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026860
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT MARCAS 1
+
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT MARCAS 1
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla MARCAS
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla MARCAS es EC
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio EC
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 2
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 2
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT MARCAS 1
+[INFO] 00:04:38:669 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT MARCAS 1
+[INFO] 00:04:38:670 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT MARCAS 1> se realizó correctamente
+[INFO] 00:04:38:670 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Nike">
+[INFO] 00:04:38:670 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 2. Criterio: EC. Duracion: 0ms
+[INFO] 00:04:38:670 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT MARCAS 1 resuelto OK
+[INFO] 00:04:38:670 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT MARCAS 1 es "Nike"
+[INFO] 00:04:38:670 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:38:670 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 2
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026860
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: INSERT MARCAS 1 "Adidas"
+
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido INSERT MARCAS 1 "Adidas"
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert | DEBUG] Cant args = 3
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla MARCAS
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla MARCAS es EC
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- La tabla es de criterio EC
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- Memoria elegida: 1
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:38:770 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:38:771 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:38:771 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: INSERT MARCAS 1 "Adidas"
+[INFO] 00:04:38:771 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: INSERT MARCAS 1 "Adidas"
+[INFO] 00:04:38:772 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <INSERT MARCAS 1 "Adidas"> se realizó correctamente
+[INFO] 00:04:38:772 [MAIN]- Proceso Kernel./(13692:13696): [contar_insert]- Agregando informacion de insert. Memoria: 1. Criterio: EC. Duracion: 1ms
+[INFO] 00:04:38:772 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido INSERT MARCAS 1 "Adidas" resuelto OK
+[INFO] 00:04:38:772 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:38:772 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 3
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026860
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT MARCAS 1
+
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT MARCAS 1
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla MARCAS
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla MARCAS es EC
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio EC
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:04:38:872 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:38:873 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:38:873 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:38:873 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT MARCAS 1
+[INFO] 00:04:38:873 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT MARCAS 1
+[INFO] 00:04:38:874 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT MARCAS 1> se realizó correctamente
+[INFO] 00:04:38:874 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Adidas">
+[INFO] 00:04:38:874 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: EC. Duracion: 2ms
+[INFO] 00:04:38:874 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT MARCAS 1 resuelto OK
+[INFO] 00:04:38:874 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT MARCAS 1 es "Adidas"
+[INFO] 00:04:38:874 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:38:874 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- Por sacar de ejecucion
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- colaEjecucion (s): 0
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Bloqueamos Mutex para poder insertar el elemento en la cola de listos.
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-[DEBUG2]- En la posicion 0 de la cola de listos esta el PID: 2
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-  Size colaListos: 1
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Por hacer POST a sem_planificador
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Salimos de la funcion AgregarAListo
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [obtenerColaListos]- [DEBUG] El que voy a ejecutar es el PID: 2
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [agregarAEjecutando]- Size colaEjecucion: 1
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Ejecutando el nivel: 0
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entrando a ejecutar rafaga de PID: 2
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- ===>Seccion de Quantum mayor que rafaga restante del proceso.
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- ===>Rafaga restante: 1.
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 1.
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT MARCAS 1
+.
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT MARCAS 1
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla MARCAS
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla MARCAS es EC
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio EC
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 2
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 2
+[INFO] 00:04:38:975 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:38:976 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:38:976 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:38:976 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT MARCAS 1
+[INFO] 00:04:38:976 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT MARCAS 1
+[INFO] 00:04:38:978 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT MARCAS 1> se realizó correctamente
+[INFO] 00:04:38:978 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Nike">
+[INFO] 00:04:38:978 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 2. Criterio: EC. Duracion: 2ms
+[INFO] 00:04:38:978 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT MARCAS 1 resuelto OK
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT MARCAS 1 es "Nike"
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entro para exit por fin de rafaga.
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Size colaExit antes: 1.
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- Por sacar de ejecucion
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- colaEjecucion (s): 0
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- La direccion del archivo a cerrar: 0x7ff2d0026860.
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Archivo cerrado.
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Resultado de sacar comando de ejecucion: 0
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Size colaExit despues: 2.
+[INFO] 00:04:38:979 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- La linea: RUN simple_ec.lql  termino de ejecutarse.
+[INFO] 00:04:42:656 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 00:04:42:656 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:42:656 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:42:657 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:42:657 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- Voy a enviar un describe global a la memoria 1
+[INFO] 00:04:42:658 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- La memoria 1 respondió con MARCAS|EC|4|600000|COLORS|SC|4|600000
+[INFO] 00:04:42:658 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: EC
+[INFO] 00:04:42:658 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 2
+[INFO] 00:04:42:658 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <0> MARCAS 2
+[INFO] 00:04:42:658 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: SC
+[INFO] 00:04:42:658 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 0
+[INFO] 00:04:42:658 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <1> COLORS 0
+[INFO] 00:04:42:658 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se va a actualizar la lista de tablas
+[INFO] 00:04:42:659 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se actualizó la lista de tablas
+[INFO] 00:04:47:656 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:04:47:656 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:04:47:656 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:04:47:656 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8001>
+[INFO] 00:04:47:657 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:04:47:657 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 1-127.0.0.1-8001
+
+[INFO] 00:04:47:657 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:04:47:657 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8010>
+[INFO] 00:04:47:658 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:04:47:658 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 2-127.0.0.1-8010
+
+[INFO] 00:04:47:658 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:04:47:658 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:04:47:658 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:04:47:658 [MAIN]- Proceso Kernel./(13692:13694): [actualizarMemoriasDisponibles]- Cantidad Memorias: 2
+[INFO] 00:04:47:658 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:04:47:658 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] La próxima ejecución será en 20000 milisegundos
+[INFO] 00:04:51:812 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Viene el comando en la cadena: ADD
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Recibimos el comando: ADD
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Se devuelve el valor 6
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- El Enum correspondiente para el comando es: 6
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- ADD ingresado.
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- Llego el comando ADD.
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [buscarCriterio]- Recibimos el criterio: SHC
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [buscarCriterio]- Se devuelve el valor 1
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [buscarMemoria]- Voy a buscar memoria 1
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [buscarMemoria]- Se encontro memoria 1: Ip 127.0.0.1. Puerto 8001
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- La memoria numero 1 ha sido encontrada.
+
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- El criterio para asociar es el: SHC,corresponde al valor: 1
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaCriterio]- Se manda journal a todas las memorias asociadas a este criterio
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [vaciarMemoriasSHC]- Se va a mandar Journal a todas las memorias asociadas al criterio
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [resolverJournal]- Journal resuelto correctamente por 0 memorias del total de 0
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [vaciarMemoriasSHC]- Se mando Journal a todas las memorias asociadas al criterio
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaCriterio]- Memoria 1 agregada al criterio 1
+[INFO] 00:04:51:813 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaAsociada]- La memoria 1 ya estaba asociada a algun criterio antes
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Viene el comando en la cadena: ADD
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Recibimos el comando: ADD
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Se devuelve el valor 6
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- El Enum correspondiente para el comando es: 6
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- ADD ingresado.
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- Llego el comando ADD.
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [buscarCriterio]- Recibimos el criterio: SHC
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [buscarCriterio]- Se devuelve el valor 1
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [buscarMemoria]- Voy a buscar memoria 2
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [buscarMemoria]- Se encontro memoria 2: Ip 127.0.0.1. Puerto 8010
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- La memoria numero 2 ha sido encontrada.
+
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [comandoAdd]- El criterio para asociar es el: SHC,corresponde al valor: 1
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaCriterio]- Se manda journal a todas las memorias asociadas a este criterio
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [vaciarMemoriasSHC]- Se va a mandar Journal a todas las memorias asociadas al criterio
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [resolverJournal]- Enviando journal a memoria 1
+[INFO] 00:04:54:252 [MAIN]- Proceso Kernel./(13692:13697): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:54:253 [MAIN]- Proceso Kernel./(13692:13697): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:54:253 [MAIN]- Proceso Kernel./(13692:13697): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:54:253 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir]- Voy a enviar request: JOURNAL
+[INFO] 00:04:54:253 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir] Request enviado: JOURNAL
+[INFO] 00:04:54:255 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir]- El request <JOURNAL> se realizó correctamente
+[INFO] 00:04:54:255 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir]- La respuesta es <Journal hecho. 1 registros recibidos OK>
+[INFO] 00:04:54:255 [MAIN]- Proceso Kernel./(13692:13697): [resolverJournal]- La memoria 1 resolvio journal con exito
+[INFO] 00:04:54:255 [MAIN]- Proceso Kernel./(13692:13697): [resolverJournal]- Journal resuelto correctamente por 1 memorias del total de 1
+[INFO] 00:04:54:255 [MAIN]- Proceso Kernel./(13692:13697): [vaciarMemoriasSHC]- Se mando Journal a todas las memorias asociadas al criterio
+[INFO] 00:04:54:255 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaCriterio]- Memoria 2 agregada al criterio 1
+[INFO] 00:04:54:255 [MAIN]- Proceso Kernel./(13692:13697): [agregarMemoriaAsociada]- La memoria 2 ya estaba asociada a algun criterio antes
+[INFO] 00:04:57:651 [MAIN]- Proceso Kernel./(13692:13698): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Reads: 0
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Writes: 0
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Read latency: 1.25ms
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Write latency: 1.00ms
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Reads: 4
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Writes: 2
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Memoria 1. Memory load 33.3%
+[INFO] 00:04:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Memoria 2. Memory load 66.7%
+[INFO] 00:04:57:659 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 00:04:57:659 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:04:57:659 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:04:57:659 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:04:57:659 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- Voy a enviar un describe global a la memoria 1
+[INFO] 00:04:57:661 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- La memoria 1 respondió con MARCAS|EC|4|600000|COLORS|SC|4|600000
+[INFO] 00:04:57:661 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: EC
+[INFO] 00:04:57:661 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 2
+[INFO] 00:04:57:661 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <0> MARCAS 2
+[INFO] 00:04:57:661 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: SC
+[INFO] 00:04:57:661 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 0
+[INFO] 00:04:57:661 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <1> COLORS 0
+[INFO] 00:04:57:661 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se va a actualizar la lista de tablas
+[INFO] 00:04:57:661 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se actualizó la lista de tablas
+[INFO] 00:05:00:717 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Viene el comando en la cadena: RUN
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Recibimos el comando: RUN
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Se devuelve el valor 7
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- El Enum correspondiente para el comando es: 7
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Entramos por comandoPlanificable (insert,select,describe,drop,create,run), a Planificar
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Por bloquear Mutex de Cola Nuevos.
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Se desbloqueo la cola de nuevos.
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Se agrego a la cola la linea RUN simple_shc.lql : .
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [agregarANuevo]- Size colaNuevos: 1
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- Por llamar a mutexBloquear y aumentar countPID: 2
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- CountPID quedo en: 3
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- Por llamar a crearPCB
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Creando PCB ==> PID: 3
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- En la posicion 0 del array esta el valor RUN
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- En la posicion 1 del array esta el valor simple_shc.lql
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Vino Run de comando, calculamos cuantas lineas tiene el archivo para llenar PCB.
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- Recorremos para calcular la cantidad de lineas que tiene el archivo.
+[INFO] 00:05:00:718 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- El archivo se encontró con exito. Empezamos a leer para calcular la cantidad de lineas.
+[INFO] 00:05:00:752 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- Fuera del while principal, la cantidad de lineas del archivo es: 12
+[INFO] 00:05:00:752 [MAIN]- Proceso Kernel./(13692:13697): [rafagaComandoRun]- Por retornar contador
+[INFO] 00:05:00:752 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- La rafaga del run es: 12
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- EN PCB: simple_shc.lql
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- EN PCB: 0x7ff2d0026f30
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Terminamos de completar PCB para RUN.
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [crearPcb]- Retornamos direccion del PCB en:  0x7ff2d0026b50.
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [crearEstructurasAdministrativas]- PCB creado ==> PID: 3
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [planificadorLargoPlazo]- Por llamar a agregarAListo para pasarle el PCB creado.
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Por sacar el elemento de la cola de nuevos
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Bloqueamos Mutex para poder insertar el elemento en la cola de listos.
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]-[DEBUG2]- En la posicion 0 de la cola de listos esta el PID: 3
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]-  Size colaListos: 1
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Por hacer POST a sem_planificador
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13697): [agregarAListo]- Salimos de la funcion AgregarAListo
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [obtenerColaListos]- [DEBUG] El que voy a ejecutar es el PID: 3
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [agregarAEjecutando]- Size colaEjecucion: 1
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Ejecutando el nivel: 0
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entrando a ejecutar rafaga de PID: 3
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 1
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: CREATE CELULARES SHC 4 600000
+
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido CREATE CELULARES SHC 4 600000
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [resolverCreate]- Memoria elegida: 1
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: CREATE CELULARES SHC 4 600000
+[INFO] 00:05:00:753 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: CREATE CELULARES SHC 4 600000
+[INFO] 00:05:00:756 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <CREATE CELULARES SHC 4 600000> se realizó correctamente
+[INFO] 00:05:00:756 [MAIN]- Proceso Kernel./(13692:13696): [resolverCreate]- El create de la tabla CELULARES se realizo correctamente. Se agrega la metadata de la tabla
+[INFO] 00:05:00:756 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterio]- Recibimos el criterio: SHC
+[INFO] 00:05:00:756 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterio]- Se devuelve el valor 1
+[INFO] 00:05:00:756 [MAIN]- Proceso Kernel./(13692:13696): [agregarTablaCriterio]- Se agregó la tabla CELULARES a la lista de tablas. Criterio: SHC
+[INFO] 00:05:00:756 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido CREATE CELULARES SHC 4 600000 resuelto OK
+[INFO] 00:05:00:756 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:00:756 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:00:856 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:00:856 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 2
+[INFO] 00:05:00:856 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:00:856 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: INSERT CELULARES 1 "iPhone"
+
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido INSERT CELULARES 1 "iPhone"
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert | DEBUG] Cant args = 3
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- La tabla es de criterio SHC
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 1, cantidad memorias 2
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 2
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- Memoria elegida: 2
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:00:857 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:00:858 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:00:858 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: INSERT CELULARES 1 "iPhone"
+[INFO] 00:05:00:858 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: INSERT CELULARES 1 "iPhone"
+[INFO] 00:05:00:859 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <INSERT CELULARES 1 "iPhone"> se realizó correctamente
+[INFO] 00:05:00:859 [MAIN]- Proceso Kernel./(13692:13696): [contar_insert]- Agregando informacion de insert. Memoria: 2. Criterio: SHC. Duracion: 2ms
+[INFO] 00:05:00:859 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido INSERT CELULARES 1 "iPhone" resuelto OK
+[INFO] 00:05:00:859 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:00:859 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 3
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT CELULARES 1
+
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT CELULARES 1
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SHC
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 1, cantidad memorias 2
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 2
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 2
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:00:960 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT CELULARES 1
+[INFO] 00:05:00:961 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT CELULARES 1
+[INFO] 00:05:00:962 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT CELULARES 1> se realizó correctamente
+[INFO] 00:05:00:962 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"iPhone">
+[INFO] 00:05:00:962 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 2. Criterio: SHC. Duracion: 2ms
+[INFO] 00:05:00:962 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT CELULARES 1 resuelto OK
+[INFO] 00:05:00:962 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT CELULARES 1 es "iPhone"
+[INFO] 00:05:00:962 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:00:962 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:01:62 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- Por sacar de ejecucion
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- colaEjecucion (s): 0
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Bloqueamos Mutex para poder insertar el elemento en la cola de listos.
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-[DEBUG2]- En la posicion 0 de la cola de listos esta el PID: 3
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-  Size colaListos: 1
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Por hacer POST a sem_planificador
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Salimos de la funcion AgregarAListo
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [obtenerColaListos]- [DEBUG] El que voy a ejecutar es el PID: 3
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [agregarAEjecutando]- Size colaEjecucion: 1
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Ejecutando el nivel: 0
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entrando a ejecutar rafaga de PID: 3
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 1
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT CELULARES 1
+
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT CELULARES 1
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SHC
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 1, cantidad memorias 2
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 2
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 2
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:01:63 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:01:64 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:01:64 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT CELULARES 1
+[INFO] 00:05:01:64 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT CELULARES 1
+[INFO] 00:05:01:64 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT CELULARES 1> se realizó correctamente
+[INFO] 00:05:01:64 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"iPhone">
+[INFO] 00:05:01:64 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 2. Criterio: SHC. Duracion: 1ms
+[INFO] 00:05:01:65 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT CELULARES 1 resuelto OK
+[INFO] 00:05:01:65 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT CELULARES 1 es "iPhone"
+[INFO] 00:05:01:65 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:01:65 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 2
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT CELULARES 1
+
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT CELULARES 1
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SHC
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 1, cantidad memorias 2
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 2
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 2
+[INFO] 00:05:01:165 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:01:166 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:01:166 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:01:166 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT CELULARES 1
+[INFO] 00:05:01:166 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT CELULARES 1
+[INFO] 00:05:01:167 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT CELULARES 1> se realizó correctamente
+[INFO] 00:05:01:167 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"iPhone">
+[INFO] 00:05:01:167 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 2. Criterio: SHC. Duracion: 1ms
+[INFO] 00:05:01:167 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT CELULARES 1 resuelto OK
+[INFO] 00:05:01:167 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT CELULARES 1 es "iPhone"
+[INFO] 00:05:01:167 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:01:167 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 3
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT CELULARES 1
+
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT CELULARES 1
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SHC
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 1, cantidad memorias 2
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 2
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 2
+[INFO] 00:05:01:267 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:01:268 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:01:268 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:01:268 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT CELULARES 1
+[INFO] 00:05:01:268 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT CELULARES 1
+[INFO] 00:05:01:269 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT CELULARES 1> se realizó correctamente
+[INFO] 00:05:01:269 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"iPhone">
+[INFO] 00:05:01:269 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 2. Criterio: SHC. Duracion: 1ms
+[INFO] 00:05:01:269 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT CELULARES 1 resuelto OK
+[INFO] 00:05:01:269 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT CELULARES 1 es "iPhone"
+[INFO] 00:05:01:269 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:01:269 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- Por sacar de ejecucion
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- colaEjecucion (s): 0
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Bloqueamos Mutex para poder insertar el elemento en la cola de listos.
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-[DEBUG2]- En la posicion 0 de la cola de listos esta el PID: 3
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-  Size colaListos: 1
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Por hacer POST a sem_planificador
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Salimos de la funcion AgregarAListo
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [obtenerColaListos]- [DEBUG] El que voy a ejecutar es el PID: 3
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [agregarAEjecutando]- Size colaEjecucion: 1
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Ejecutando el nivel: 0
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entrando a ejecutar rafaga de PID: 3
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 1
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: INSERT CELULARES 2 "Android"
+
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido INSERT CELULARES 2 "Android"
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert | DEBUG] Cant args = 3
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- La tabla es de criterio SHC
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 2, cantidad memorias 2
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:05:01:369 [MAIN]- Proceso Kernel./(13692:13696): [resolverInsert]- Memoria elegida: 1
+[INFO] 00:05:01:370 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:01:370 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:01:370 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:01:370 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: INSERT CELULARES 2 "Android"
+[INFO] 00:05:01:370 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: INSERT CELULARES 2 "Android"
+[INFO] 00:05:01:371 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <INSERT CELULARES 2 "Android"> se realizó correctamente
+[INFO] 00:05:01:371 [MAIN]- Proceso Kernel./(13692:13696): [contar_insert]- Agregando informacion de insert. Memoria: 1. Criterio: SHC. Duracion: 2ms
+[INFO] 00:05:01:371 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido INSERT CELULARES 2 "Android" resuelto OK
+[INFO] 00:05:01:372 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:01:372 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 2
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT CELULARES 2
+
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT CELULARES 2
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SHC
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 2, cantidad memorias 2
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT CELULARES 2
+[INFO] 00:05:01:472 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT CELULARES 2
+[INFO] 00:05:01:473 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT CELULARES 2> se realizó correctamente
+[INFO] 00:05:01:473 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Android">
+[INFO] 00:05:01:473 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: SHC. Duracion: 0ms
+[INFO] 00:05:01:473 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT CELULARES 2 resuelto OK
+[INFO] 00:05:01:473 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT CELULARES 2 es "Android"
+[INFO] 00:05:01:473 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:01:473 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 3
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT CELULARES 2
+
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT CELULARES 2
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SHC
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 2, cantidad memorias 2
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT CELULARES 2
+[INFO] 00:05:01:573 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT CELULARES 2
+[INFO] 00:05:01:574 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT CELULARES 2> se realizó correctamente
+[INFO] 00:05:01:574 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Android">
+[INFO] 00:05:01:574 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: SHC. Duracion: 1ms
+[INFO] 00:05:01:574 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT CELULARES 2 resuelto OK
+[INFO] 00:05:01:574 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT CELULARES 2 es "Android"
+[INFO] 00:05:01:574 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:01:574 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- Por sacar de ejecucion
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- colaEjecucion (s): 0
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Bloqueamos Mutex para poder insertar el elemento en la cola de listos.
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-[DEBUG2]- En la posicion 0 de la cola de listos esta el PID: 3
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Desbloqueamos el mutex y agregamos el PCB a la cola de listos.
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]-  Size colaListos: 1
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Por hacer POST a sem_planificador
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [agregarAListo]- Salimos de la funcion AgregarAListo
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [obtenerColaListos]- [DEBUG] El que voy a ejecutar es el PID: 3
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [agregarAEjecutando]- Size colaEjecucion: 1
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [nivelMultiprogramacion]- Ejecutando el nivel: 0
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entrando a ejecutar rafaga de PID: 3
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 1
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT CELULARES 2
+
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT CELULARES 2
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:01:674 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SHC
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 2, cantidad memorias 2
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT CELULARES 2
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT CELULARES 2
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT CELULARES 2> se realizó correctamente
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Android">
+[INFO] 00:05:01:675 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: SHC. Duracion: 1ms
+[INFO] 00:05:01:676 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT CELULARES 2 resuelto OK
+[INFO] 00:05:01:676 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT CELULARES 2 es "Android"
+[INFO] 00:05:01:676 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:01:676 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 2
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT CELULARES 2
+
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT CELULARES 2
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SHC
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 2, cantidad memorias 2
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:01:776 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT CELULARES 2
+[INFO] 00:05:01:777 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT CELULARES 2
+[INFO] 00:05:01:778 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT CELULARES 2> se realizó correctamente
+[INFO] 00:05:01:778 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Android">
+[INFO] 00:05:01:778 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: SHC. Duracion: 2ms
+[INFO] 00:05:01:778 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT CELULARES 2 resuelto OK
+[INFO] 00:05:01:778 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT CELULARES 2 es "Android"
+[INFO] 00:05:01:778 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:01:778 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Vuelta del FOR: 3
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 7
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- 0x7ff2d0026f30
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Linea para ejecutar: SELECT CELULARES 2
+
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Voy a resolver pedido SELECT CELULARES 2
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- Voy a buscar tabla CELULARES
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [buscarCriterioTabla]- El criterio de la tabla CELULARES es SHC
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect]- La tabla es de criterio SHC
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [numMemoriaHash]- KEY 2, cantidad memorias 2
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [elegirMemoriaCriterio]- La memoria elegida es la 1
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [resolverSelect] Memoria elegida: 1
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- Voy a enviar request: SELECT CELULARES 2
+[INFO] 00:05:01:879 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir] Request enviado: SELECT CELULARES 2
+[INFO] 00:05:01:881 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- El request <SELECT CELULARES 2> se realizó correctamente
+[INFO] 00:05:01:881 [MAIN]- Proceso Kernel./(13692:13696): [enviar_recibir]- La respuesta es <"Android">
+[INFO] 00:05:01:881 [MAIN]- Proceso Kernel./(13692:13696): [contar_select]- Agregando informacion de select. Memoria: 1. Criterio: SHC. Duracion: 1ms
+[INFO] 00:05:01:881 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Pedido SELECT CELULARES 2 resuelto OK
+[INFO] 00:05:01:881 [MAIN]- Proceso Kernel./(13692:13696): [resolverPedido]- Respuesta a pedido SELECT CELULARES 2 es "Android"
+[INFO] 00:05:01:881 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Por llamar a aplicar Retardo
+[INFO] 00:05:01:881 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Por ejecutar instruccion sleep de: 100
+[INFO] 00:05:01:981 [MAIN]- Proceso Kernel./(13692:13696): [KERNEL | aplicarRetardo] Luego de instruccion sleep
+[INFO] 00:05:01:981 [MAIN]- Proceso Kernel./(13692:13696): [EJECUTAR]- Entro para exit porque termino la ejecucion
+[INFO] 00:05:01:981 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Size colaExit antes: 2.
+[INFO] 00:05:01:981 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- Por sacar de ejecucion
+[INFO] 00:05:01:981 [MAIN]- Proceso Kernel./(13692:13696): [sacarDeColaEjecucion]- colaEjecucion (s): 0
+[INFO] 00:05:01:981 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- La direccion del archivo a cerrar: 0x7ff2d0026f30.
+[INFO] 00:05:01:981 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Archivo cerrado.
+[INFO] 00:05:01:981 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Resultado de sacar comando de ejecucion: 0
+[INFO] 00:05:01:981 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- Size colaExit despues: 3.
+[INFO] 00:05:01:982 [MAIN]- Proceso Kernel./(13692:13696): [agregarAExit]- La linea: RUN simple_shc.lql  termino de ejecutarse.
+[INFO] 00:05:07:658 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:05:07:658 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:05:07:658 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:05:07:658 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8001>
+[INFO] 00:05:07:659 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:05:07:659 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 1-127.0.0.1-8001
+
+[INFO] 00:05:07:659 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:05:07:659 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8010>
+[INFO] 00:05:07:660 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:05:07:661 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 2-127.0.0.1-8010
+
+[INFO] 00:05:07:661 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:05:07:661 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:05:07:661 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:05:07:661 [MAIN]- Proceso Kernel./(13692:13694): [actualizarMemoriasDisponibles]- Cantidad Memorias: 2
+[INFO] 00:05:07:661 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:05:07:661 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] La próxima ejecución será en 20000 milisegundos
+[INFO] 00:05:11:509 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Viene el comando en la cadena: JOURNAL
+[INFO] 00:05:11:509 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Recibimos el comando: JOURNAL
+[INFO] 00:05:11:509 [MAIN]- Proceso Kernel./(13692:13697): [buscarComando]- Se devuelve el valor 5
+[INFO] 00:05:11:509 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- El Enum correspondiente para el comando es: 5
+[INFO] 00:05:11:509 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Journal ingresado.
+[INFO] 00:05:11:510 [MAIN]- Proceso Kernel./(13692:13697): [resolverJournal]- Enviando journal a memoria 1
+[INFO] 00:05:11:510 [MAIN]- Proceso Kernel./(13692:13697): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:11:510 [MAIN]- Proceso Kernel./(13692:13697): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:11:510 [MAIN]- Proceso Kernel./(13692:13697): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:11:510 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir]- Voy a enviar request: JOURNAL
+[INFO] 00:05:11:510 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir] Request enviado: JOURNAL
+[INFO] 00:05:11:512 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir]- El request <JOURNAL> se realizó correctamente
+[INFO] 00:05:11:512 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir]- La respuesta es <Journal hecho. 1 registros recibidos OK>
+[INFO] 00:05:11:512 [MAIN]- Proceso Kernel./(13692:13697): [resolverJournal]- La memoria 1 resolvio journal con exito
+[INFO] 00:05:11:512 [MAIN]- Proceso Kernel./(13692:13697): [resolverJournal]- Enviando journal a memoria 2
+[INFO] 00:05:11:512 [MAIN]- Proceso Kernel./(13692:13697): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:11:513 [MAIN]- Proceso Kernel./(13692:13697): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:11:513 [MAIN]- Proceso Kernel./(13692:13697): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:11:513 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir]- Voy a enviar request: JOURNAL
+[INFO] 00:05:11:513 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir] Request enviado: JOURNAL
+[INFO] 00:05:11:515 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir]- El request <JOURNAL> se realizó correctamente
+[INFO] 00:05:11:515 [MAIN]- Proceso Kernel./(13692:13697): [enviar_recibir]- La respuesta es <Journal hecho. 2 registros recibidos OK>
+[INFO] 00:05:11:515 [MAIN]- Proceso Kernel./(13692:13697): [resolverJournal]- La memoria 2 resolvio journal con exito
+[INFO] 00:05:11:515 [MAIN]- Proceso Kernel./(13692:13697): [resolverJournal]- Journal resuelto correctamente por 2 memorias del total de 2
+[INFO] 00:05:12:661 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 00:05:12:661 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:12:662 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:12:662 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:12:662 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- Voy a enviar un describe global a la memoria 1
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- La memoria 1 respondió con MARCAS|EC|4|600000|COLORS|SC|4|600000|CELULARES|SHC|4|600000
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: EC
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 2
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <0> MARCAS 2
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: SC
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 0
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <1> COLORS 0
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: SHC
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 1
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <2> CELULARES 1
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se va a actualizar la lista de tablas
+[INFO] 00:05:12:665 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se actualizó la lista de tablas
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Reads: 0
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Writes: 0
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Read latency: 1.11ms
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Write latency: 2.00ms
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Reads: 9
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Writes: 2
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Reads: 0
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Writes: 0
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Memoria 1. Memory load 54.5%
+[INFO] 00:05:27:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Memoria 2. Memory load 45.5%
+[INFO] 00:05:27:661 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:05:27:661 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:05:27:661 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:05:27:661 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8001>
+[INFO] 00:05:27:662 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:05:27:662 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 1-127.0.0.1-8001
+
+[INFO] 00:05:27:662 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:05:27:662 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8010>
+[INFO] 00:05:27:662 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:05:27:663 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 2-127.0.0.1-8010
+
+[INFO] 00:05:27:663 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:05:27:663 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:05:27:663 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:05:27:663 [MAIN]- Proceso Kernel./(13692:13694): [actualizarMemoriasDisponibles]- Cantidad Memorias: 2
+[INFO] 00:05:27:663 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:05:27:663 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] La próxima ejecución será en 20000 milisegundos
+[INFO] 00:05:27:665 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 00:05:27:665 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:27:665 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:27:666 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:27:666 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- Voy a enviar un describe global a la memoria 1
+[INFO] 00:05:27:669 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- La memoria 1 respondió con MARCAS|EC|4|600000|COLORS|SC|4|600000|CELULARES|SHC|4|600000
+[INFO] 00:05:27:669 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: EC
+[INFO] 00:05:27:669 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 2
+[INFO] 00:05:27:669 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <0> MARCAS 2
+[INFO] 00:05:27:669 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: SC
+[INFO] 00:05:27:669 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 0
+[INFO] 00:05:27:669 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <1> COLORS 0
+[INFO] 00:05:27:669 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: SHC
+[INFO] 00:05:27:669 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 1
+[INFO] 00:05:27:669 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <2> CELULARES 1
+[INFO] 00:05:27:670 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se va a actualizar la lista de tablas
+[INFO] 00:05:27:670 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se actualizó la lista de tablas
+[INFO] 00:05:42:670 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 00:05:42:670 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[INFO] 00:05:42:670 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA. Espero su hs
+[INFO] 00:05:42:670 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me conecté con éxito a la MEMORIA
+[INFO] 00:05:42:670 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- Voy a enviar un describe global a la memoria 2
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- La memoria 2 respondió con MARCAS|EC|4|600000|COLORS|SC|4|600000|CELULARES|SHC|4|600000
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: EC
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 2
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <0> MARCAS 2
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: SC
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 0
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <1> COLORS 0
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Recibimos el criterio: SHC
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [buscarCriterio]- Se devuelve el valor 1
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [procesarDescribe]- Tabla recibida <2> CELULARES 1
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se va a actualizar la lista de tablas
+[INFO] 00:05:42:674 [MAIN]- Proceso Kernel./(13692:13695): [actualizarTablasCriterios]- Se actualizó la lista de tablas
+[INFO] 00:05:47:663 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:05:47:663 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:05:47:663 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:05:47:663 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8001>
+[INFO] 00:05:47:664 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:05:47:665 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 1-127.0.0.1-8001
+
+[INFO] 00:05:47:665 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:05:47:665 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<8010>
+[INFO] 00:05:47:666 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] La memoria acepto la conexion
+[INFO] 00:05:47:666 [MAIN]- Proceso Kernel./(13692:13694): [INCORPORAR SEEDS] Memoria ya conocida. 2-127.0.0.1-8010
+
+[INFO] 00:05:47:666 [MAIN]- Proceso Kernel./(13692:13694): [CORRIENDO GOSSIPING] Se agregaron memorias recibidas
+[INFO] 00:05:47:667 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:05:47:667 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:05:47:667 [MAIN]- Proceso Kernel./(13692:13694): [actualizarMemoriasDisponibles]- Cantidad Memorias: 2
+[INFO] 00:05:47:667 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:05:47:667 [MAIN]- Proceso Kernel./(13692:13694): [HILO GOSSIPING] La próxima ejecución será en 20000 milisegundos
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [imprimirMetricas]- Ultima actualizacion hace 30 segundos
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Read latency: 0.00ms
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Write latency: 0.00ms
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Reads: 0
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SC. Writes: 0
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Read latency: 0.00ms
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Write latency: 0.00ms
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Reads: 0
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio SHC. Writes: 0
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Read latency: 0.00ms
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Write latency: 0.00ms
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Reads: 0
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Criterio EC. Writes: 0
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Memoria 1. Memory load 0.0%
+[INFO] 00:05:57:652 [MAIN]- Proceso Kernel./(13692:13698): [METRICAS] Memoria 2. Memory load 0.0%
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [hilo_metadata_refresh]- Voy a actualizar la metadata de las tablas
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[ERROR] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- No fue posible conectarse con la Memoria. TERMINANDO
+
+[ERROR] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [actualizarMetadataTablas]- Error al conectarse a la memoria para hacer el describe
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- Memoria 1 eliminada de las memorias asociadas
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- Memoria 1 eliminada del criterio EC
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- El criterio EC ahora tiene 1 memorias
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- Memoria 1 eliminada del criterio SC
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- No se podran resolver pedidos SC hasta agregar otra memoria a este criterio
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- Memoria 1 eliminada del criterio SHC
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [vaciarMemoriasSHC]- Se va a mandar Journal a todas las memorias asociadas al criterio
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [resolverJournal]- Enviando journal a memoria 2
+[INFO] 00:05:57:674 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- Me voy a intentar conectar a ip: <127.0.0.1> puerto: <8001>
+[ERROR] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [conectar_a_memoria]- No fue posible conectarse con la Memoria. TERMINANDO
+
+[ERROR] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [resolverJournal]- No se pudo establecer conexion con la memoria 2
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- Memoria 2 eliminada de las memorias asociadas
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- Memoria 2 eliminada del criterio EC
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- El criterio EC ahora tiene 0 memorias
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- Memoria 2 eliminada del criterio SHC
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [vaciarMemoriasSHC]- Se va a mandar Journal a todas las memorias asociadas al criterio
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [resolverJournal]- Journal resuelto correctamente por 0 memorias del total de 0
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [vaciarMemoriasSHC]- Se mando Journal a todas las memorias asociadas al criterio
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- Se mendo journal a todas las memorias que quedan en el criterio
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [sacarMemoriaMetricas]- Sacando la memoria 2 de las estructuras de las metricas
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [resolverJournal]- Journal resuelto correctamente por 0 memorias del total de 1
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [vaciarMemoriasSHC]- Se mando Journal a todas las memorias asociadas al criterio
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [eliminarMemoriaAsociada]- Se mendo journal a todas las memorias que quedan en el criterio
+[INFO] 00:05:57:675 [MAIN]- Proceso Kernel./(13692:13695): [sacarMemoriaMetricas]- Sacando la memoria 1 de las estructuras de las metricas
+[INFO] 00:05:58:445 [MAIN]- Proceso Kernel./(13692:13697): [CONSOLA]- Viene el comando en la cadena: SALIR
+[INFO] 00:05:58:446 [MAIN]- Proceso Kernel./(13692:13692): [FINALIZANDO] Liberamos memoria
+[INFO] 00:05:58:446 [MAIN]- Proceso Kernel./(13692:13692): [FINALIZANDO] Vacio y borro colas
+[INFO] 00:05:58:446 [MAIN]- Proceso Kernel./(13692:13692): [FINALIZANDO] Borro memoria utilizada por el gossiping
+[INFO] 00:05:58:446 [MAIN]- Proceso Kernel./(13692:13692): [FINALIZANDO] Borro lista de tablas
+[INFO] 00:05:58:446 [MAIN]- Proceso Kernel./(13692:13692): [FINALIZANDO] Borro criterios
+[INFO] 00:05:58:446 [MAIN]- Proceso Kernel./(13692:13692): [FINALIZANDO] Borro estructura de metricas
+[INFO] 00:05:58:446 [MAIN]- Proceso Kernel./(13692:13692): [FINALIZANDO] Borro archivo config
+[INFO] 00:05:58:446 [MAIN]- Proceso Kernel./(13692:13692): [FINALIZANDO] Borro log

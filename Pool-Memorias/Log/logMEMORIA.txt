@@ -1,0 +1,477 @@
+[INFO] 00:06:36:64 Proceso Memoria/(14158:14158):  ========== Iniciación de Pool de Memoria ========== 
+[INFO] 00:06:36:64 Proceso Memoria/(14158:14158): [LOGYCONFIG] Logger de seguimiento de tablas creado en ../Log/log_TABLAS_MEMORIA.txt
+[INFO] 00:06:36:64 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] RESERVAR MEMORIA.
+[INFO] 00:06:36:64 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] BUSCANDO CONFIGURACION.
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] LEYENDO CONFIGURACION...
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): PUERTO PARA MODULO MEMORIA: 8010
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] IP DE ESCUCHA: 127.0.0.1
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] IP DE FILESYSTEM: 127.0.0.1
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] PUERTO DE FILESYSTEM: 5003
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] IP DE SEEDS: 127.0.0.1
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] PUERTOS PARA SEEDS: -1872886080
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] RETARDO MEMORIA: 0
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] RETARDO DEL FS: 0
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] TAMAÑO DE MEMORIA: 1280
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] RETARDO DEL JOURNALING: 60000
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] RETARDO DE GOSSIPING: 10000
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONFIGURANDO MODULO] NUMERO DE MEMORIA: 2
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [LOGYCONFIG] *** CONFIGURACIÓN DE MEMORIA CARGADA. *** 
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONECTANDO A LFS] Me voy a intentar conectar a ip: <127.0.0.1> puerto: <5003>
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONECTANDO A LFS] Me conecté con éxito al lfs. Espero su hs
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONECTANDO A LFS] Recibido el máximo tamaño para los valores. Es 60
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [MAIN] Iniciando con tamaño máximo de valor 60
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [ARMAR MEMORIA] Armo el bloque de memoria, guardo su tamaño
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [ARMAR MEMORIA] Se ha creado la memoria contigua
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [ARMAR MEMORIA] Se ha creado la memoria
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [ARMAR MEMORIA] Guardo tamaño de memoria: 5120
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [ARMAR MEMORIA] Tamaño de memoria guardada, MEMORIA REAL: 1280
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [ARMAR MEMORIA] Tamaño de pagina: 84
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [ARMAR MEMORIA] Cantidad maxima de paginas en memoria: 15
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [ARMAR MEMORIA] BITMAP creado con tamaño de 15
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [ARMAR MEMORIA] bloque_LRU para administrar el LRU CREADO
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [ARMAR MEMORIA] Memoria inicializada de forma correcta
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [SEMAFOROS] Iniciando semaforos y mutexs
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [SEMAFOROS] Semaforos y mutex inicializados
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [SEMAFOROS] Semaforo paginasSinUsar iniciada con valor '15'
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [LEVANTANDO SERVIDOR] Me voy a intentar conectar en ip: <127.0.0.1> puerto: <8010>
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [LEVANTANDO SERVIDOR] Servidor conectado
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [INICIALIZANDO GOSSIPING MEMORIA] Entrando a función
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [INICIALIZANDO GOSSIPING MEMORIA] El gossiping se hará cada 10000 milisegundos
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [INICIALIZANDO GOSSIPING MEMORIA] Todas las memorias agregadas
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [INICIANDO HILO GOSSIPING] Voy a crear hilo
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14158): [INICIANDO HILO GOSSIPING] Hilo creado
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Entrando a hilo
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Soy proceso 1
+[INFO] 00:06:36:65 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14161): [SERVIDOR] Entrando a hilo de escucha del servidor de la memoria
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14161): [SERVIDOR] Esperando recibir un cliente
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14160): No hay memorias caidas
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] La próxima ejecución será en 10000 milisegundos
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14163): [CONSOLA] Entrando a hilo consola
+[INFO] 00:06:36:66 Proceso Memoria/(14158:14164): PROXIMO JOURNAL EN 60000 milisegundos>
+[INFO] 00:06:46:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:06:46:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:06:46:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:06:46:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:06:46:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:06:46:66 Proceso Memoria/(14158:14160): No hay memorias caidas
+[INFO] 00:06:46:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:06:46:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] La próxima ejecución será en 9999 milisegundos
+[INFO] 00:06:56:65 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:06:56:65 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:06:56:65 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:06:56:65 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:06:56:65 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:06:56:65 Proceso Memoria/(14158:14160): No hay memorias caidas
+[INFO] 00:06:56:65 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:06:56:65 Proceso Memoria/(14158:14160): [HILO GOSSIPING] La próxima ejecución será en 10000 milisegundos
+[INFO] 00:07:06:65 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:07:06:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:07:06:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:07:06:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:07:06:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:07:06:66 Proceso Memoria/(14158:14160): No hay memorias caidas
+[INFO] 00:07:06:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:07:06:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] La próxima ejecución será en 10000 milisegundos
+[INFO] 00:07:14:867 Proceso Memoria/(14158:14163): [CONSOLA] Request: SELECT COLORS 1
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [SELECT] Voy a resolver SELECT
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [WRAPPER DE SELECT] Quiero obtener la key 1 de la tabla COLORS
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [FUNCION SELECT] ENTRANDO POR NUEVA PETICION. Valor de key de los datos solicitados: SEGMENTO: COLORS KEY: 1
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [Buscar Key] Empiezo a buscar la key '1' perteneciente a la tabla 'COLORS'
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [BUSCANDO SEGMENTO X KEY] No se ha inicializado la tabla de segmentos, devuelvo NULL
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [Buscar Key] NO EXISTE NINGUN SEGMENTO ASOCIADA A 'COLORS'; Devuelvo ERROR
+[ERROR] 00:07:14:868 Proceso Memoria/(14158:14163): [FUNCION SELECT] ERROR, NO SE ENCONTRO NADA. SEGMENTO BUSCADO: <COLORS>. KEY BUSCADA: <1>.DEVUELVO ERROR
+[WARNING] 00:07:14:868 Proceso Memoria/(14158:14163): [WRAPPER DE SELECT] Valor no encontrado
+[WARNING] 00:07:14:868 Proceso Memoria/(14158:14163): [SELECT] En memoria no existe la tabla o no existe la key en la misma
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me voy a intentar conectar a ip: <127.0.0.1> puerto: <5003>
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me conecté con éxito al lfs. Espero su hs
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [SELECT] Ya tengo un canal para comunicarme con el lfs
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [SELECT] Voy a mandar select al lfs
+[INFO] 00:07:14:868 Proceso Memoria/(14158:14163): [SELECT] Espero respuesta del lfs
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [SELECT] Recibi respuesta del lfs
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [SELECT] El lfs contesto
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [SELECT] El lfs pudo resolver el select con exito
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [SELECT] REPUESTA (VALOR|TIMESTAMP): Black|1564628656937
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [SELECT] REPUESTA TRANSFORMADA A: INSERT COLORS 1 "Black" 1564628656937
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] Voy a resolver INSERT
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] Voy a agregar "Black" en la key 1 de la tabla COLORS
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] En funcion INSERT
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] Me pongo a buscar el segmento y la tabla en base a 'COLORS' y '1'
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [Buscar Key] Empiezo a buscar la key '1' perteneciente a la tabla 'COLORS'
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [BUSCANDO SEGMENTO X KEY] No se ha inicializado la tabla de segmentos, devuelvo NULL
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [Buscar Key] NO EXISTE NINGUN SEGMENTO ASOCIADA A 'COLORS'; Devuelvo ERROR
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] Verifico si debo realizar LRU
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] NO se encontro la posicion a donde debo ir
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] Verifico 1* si esta FULL memoria
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] Tampoco se encontro que existe un segmento asociado a la tabla 'COLORS'. Procedo a crear el segmento, tabla de pagina y alojar la pagina en memoria
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] En crear Tabla de pagina y pagina nueva porque no estan con la key 1
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Tabla pagina creada
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Verifico si hay espacio libre en Memoria
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [BITMAP] Verifico si tiene espacio libre del total de paginas que son: '15'
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] La pagina '0' esta LIBRE y la usare para guardar la pagina
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Asigno el espacio libre a la tabla pagina y a la pagina
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Procedo a asignar la tabla y la pagina a dicha posicion
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [CREANDO PAGINA Y VALOR] Pagina y valor creados: KEY|VALOR|TIMESTAMP: 1|"Black"|1564628656937
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [asignarNuevaTablaAPosicionLibre] Se han guardado exitosamente los datos. Ahora mismo hay '15' espacios libres
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [VERIFICANDO SI ESTA FULL] 1 Nodo no fue modificado por lo tanto no esta FULL
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [MODIFICAR BLOQUE LRU] DATOS INGRESADOS: NOMBRE TABLA <COLORS>. NUMERO PAGINA: <0>. TIMESTAMP: <1564628834869> ESTADO PAGINA: <0>
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [asignarNuevaTablaAPosicionLibre]POSICION 0. VALORES PUESTOS en bl: KEY|VALUE|TIMESTAMP 1|"Black"|1564628656937
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] ASIGNACION COMPLETADA
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Desactivo el mutex mutex_tabla_pagina_en_modificacion
+[WARNING] 00:07:14:869 Proceso Memoria/(14158:14163): NUMERO DE PAGINA PARA LA TABLA Y KEY ASIGNADA: TABLA [COLORS]. KEY: [1]. PAGINA: [0]
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] Tabla de pagina referenciada creada con info NROPAGINA|KEY|FLAG: 0|1|FALSE
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] Creando segmento para la tabla 'COLORS' asociando al nro de pagina '0'
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] Estructura de la nueva tabla creada
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] PATH COPIADO 'COLORS'
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] ES EL PRIMER SEGMENTO EN SER CREADO 'COLORS'
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO]SEGMENTO 'COLORS' CREADO!!!
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] SEGMENTO Creado para la tabla 'COLORS' . Como es el primer segmento TABLA SEGMENTOS apuntara este elemento
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [INSERT] Se ha creado un segmento para la tabla 'COLORS'
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [SELECT] Agregué el valor a memoria
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [RESOLVIENDO PEDIDO] SELECT hecho correctamente. Valor "Black" obtenido
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [LOGGEANDO ESTADO ACTUAL MEMORIA]
+[INFO] 00:07:14:869 Proceso Memoria/(14158:14163): [CONSOLA] Resuelto OK. Respuesta obtenida: "Black"
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [CONSOLA] Request: SELECT COLORS 2
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [SELECT] Voy a resolver SELECT
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [WRAPPER DE SELECT] Quiero obtener la key 2 de la tabla COLORS
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [FUNCION SELECT] ENTRANDO POR NUEVA PETICION. Valor de key de los datos solicitados: SEGMENTO: COLORS KEY: 2
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [Buscar Key] Empiezo a buscar la key '2' perteneciente a la tabla 'COLORS'
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Buscando el segmento referido para la tabla 'COLORS'
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'COLORS'|'COLORS'
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [BUSCANDO SEGMENTO X NOMBRETABLA] Se encontro el segmento buscado
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [Buscar Key] Se encontro el segmento con nombre 'COLORS'
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [Buscar Key Por Tabla PAGINA] Por buscar la KEY '2'
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [Buscar Key Por Tabla PAGINA] NO SE ENCONTRO LA PAGINA PARA LA KEY EN LA POSICION PARA LA KEY2
+[ERROR] 00:07:15:940 Proceso Memoria/(14158:14163): [FUNCION SELECT] ERROR, NO SE ENCONTRO NADA. SEGMENTO BUSCADO: <COLORS>. KEY BUSCADA: <2>.DEVUELVO ERROR
+[WARNING] 00:07:15:940 Proceso Memoria/(14158:14163): [WRAPPER DE SELECT] Valor no encontrado
+[WARNING] 00:07:15:940 Proceso Memoria/(14158:14163): [SELECT] En memoria no existe la tabla o no existe la key en la misma
+[INFO] 00:07:15:940 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me voy a intentar conectar a ip: <127.0.0.1> puerto: <5003>
+[INFO] 00:07:15:941 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me conecté con éxito al lfs. Espero su hs
+[INFO] 00:07:15:941 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 00:07:15:941 Proceso Memoria/(14158:14163): [SELECT] Ya tengo un canal para comunicarme con el lfs
+[INFO] 00:07:15:941 Proceso Memoria/(14158:14163): [SELECT] Voy a mandar select al lfs
+[INFO] 00:07:15:941 Proceso Memoria/(14158:14163): [SELECT] Espero respuesta del lfs
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [SELECT] Recibi respuesta del lfs
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [SELECT] El lfs contesto
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [SELECT] El lfs pudo resolver el select con exito
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [SELECT] REPUESTA (VALOR|TIMESTAMP): Red|1564628656527
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [SELECT] REPUESTA TRANSFORMADA A: INSERT COLORS 2 "Red" 1564628656527
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] Voy a resolver INSERT
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] Voy a agregar "Red" en la key 2 de la tabla COLORS
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] En funcion INSERT
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] Me pongo a buscar el segmento y la tabla en base a 'COLORS' y '2'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Buscar Key] Empiezo a buscar la key '2' perteneciente a la tabla 'COLORS'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Buscando el segmento referido para la tabla 'COLORS'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'COLORS'|'COLORS'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [BUSCANDO SEGMENTO X NOMBRETABLA] Se encontro el segmento buscado
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Buscar Key] Se encontro el segmento con nombre 'COLORS'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Buscar Key Por Tabla PAGINA] Por buscar la KEY '2'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Buscar Key Por Tabla PAGINA] NO SE ENCONTRO LA PAGINA PARA LA KEY EN LA POSICION PARA LA KEY2
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] Verifico si debo realizar LRU
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] NO se encontro la posicion a donde debo ir
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] Verifico 1* si esta FULL memoria
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] Se encontro un segmento asociado a la tabla 'COLORS'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] En crear Tabla de pagina y pagina nueva porque no estan con la key 2
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Tabla pagina creada
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Verifico si hay espacio libre en Memoria
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [BITMAP] Verifico si tiene espacio libre del total de paginas que son: '15'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [BITMAP] Busco key [2] en el segmento 'COLORS'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [BITMAP] No se encontro en el segmento  'COLORS' la key '2' buscad. Paso a crearla!
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] La pagina '1' esta LIBRE y la usare para guardar la pagina
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Asigno el espacio libre a la tabla pagina y a la pagina
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Procedo a asignar la tabla y la pagina a dicha posicion
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [CREANDO PAGINA Y VALOR] Pagina y valor creados: KEY|VALOR|TIMESTAMP: 2|"Red"|1564628656527
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [asignarNuevaTablaAPosicionLibre] Se han guardado exitosamente los datos. Ahora mismo hay '15' espacios libres
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [VERIFICANDO SI ESTA FULL] 1 Nodo no fue modificado por lo tanto no esta FULL
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [MODIFICAR BLOQUE LRU] DATOS INGRESADOS: NOMBRE TABLA <COLORS>. NUMERO PAGINA: <1>. TIMESTAMP: <1564628835942> ESTADO PAGINA: <0>
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [asignarNuevaTablaAPosicionLibre]POSICION 1. VALORES PUESTOS en bl: KEY|VALUE|TIMESTAMP 2|"Red"|1564628656527
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] ASIGNACION COMPLETADA
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Desactivo el mutex mutex_tabla_pagina_en_modificacion
+[WARNING] 00:07:15:942 Proceso Memoria/(14158:14163): NUMERO DE PAGINA PARA LA TABLA Y KEY ASIGNADA: TABLA [COLORS]. KEY: [2]. PAGINA: [1]
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] Tabla de pagina referenciada creada con info NROPAGINA|KEY|FLAG: 1|2|FALSE
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [DBG] 1
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [DBG] Antes del while
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [DBG] Despues del while
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] Se ha creado una tabla de pagina. Nro de su posicion es aux y nueva '1'/'1'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT] Se ha actualizado segmento para la tabla 'COLORS'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [INSERT HECHO] Compruebo si se añadio la nueva tabla de paginas de 'COLORS'
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [SELECT] Agregué el valor a memoria
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [RESOLVIENDO PEDIDO] SELECT hecho correctamente. Valor "Red" obtenido
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [LOGGEANDO ESTADO ACTUAL MEMORIA]
+[INFO] 00:07:15:942 Proceso Memoria/(14158:14163): [CONSOLA] Resuelto OK. Respuesta obtenida: "Red"
+[INFO] 00:07:16:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:07:16:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:07:16:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:07:16:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:07:16:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:07:16:66 Proceso Memoria/(14158:14160): No hay memorias caidas
+[INFO] 00:07:16:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:07:16:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] La próxima ejecución será en 10000 milisegundos
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [CONSOLA] Request: SELECT MARCAS 1
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [SELECT] Voy a resolver SELECT
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [WRAPPER DE SELECT] Quiero obtener la key 1 de la tabla MARCAS
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [FUNCION SELECT] ENTRANDO POR NUEVA PETICION. Valor de key de los datos solicitados: SEGMENTO: MARCAS KEY: 1
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [Buscar Key] Empiezo a buscar la key '1' perteneciente a la tabla 'MARCAS'
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Buscando el segmento referido para la tabla 'MARCAS'
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'MARCAS'|'COLORS'
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [BUSCANDO SEGMENTO X KEY] NO se encontro el segmento buscado, devuelvo NULL
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [Buscar Key] NO EXISTE NINGUN SEGMENTO ASOCIADA A 'MARCAS'; Devuelvo ERROR
+[ERROR] 00:07:22:36 Proceso Memoria/(14158:14163): [FUNCION SELECT] ERROR, NO SE ENCONTRO NADA. SEGMENTO BUSCADO: <MARCAS>. KEY BUSCADA: <1>.DEVUELVO ERROR
+[WARNING] 00:07:22:36 Proceso Memoria/(14158:14163): [WRAPPER DE SELECT] Valor no encontrado
+[WARNING] 00:07:22:36 Proceso Memoria/(14158:14163): [SELECT] En memoria no existe la tabla o no existe la key en la misma
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me voy a intentar conectar a ip: <127.0.0.1> puerto: <5003>
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me conecté con éxito al lfs. Espero su hs
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [SELECT] Ya tengo un canal para comunicarme con el lfs
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [SELECT] Voy a mandar select al lfs
+[INFO] 00:07:22:36 Proceso Memoria/(14158:14163): [SELECT] Espero respuesta del lfs
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [SELECT] Recibi respuesta del lfs
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [SELECT] El lfs contesto
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [SELECT] El lfs pudo resolver el select con exito
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [SELECT] REPUESTA (VALOR|TIMESTAMP): Adidas|1564628678771
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [SELECT] REPUESTA TRANSFORMADA A: INSERT MARCAS 1 "Adidas" 1564628678771
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [INSERT] Voy a resolver INSERT
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [INSERT] Voy a agregar "Adidas" en la key 1 de la tabla MARCAS
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [INSERT] En funcion INSERT
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [INSERT] Me pongo a buscar el segmento y la tabla en base a 'MARCAS' y '1'
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [Buscar Key] Empiezo a buscar la key '1' perteneciente a la tabla 'MARCAS'
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Buscando el segmento referido para la tabla 'MARCAS'
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'MARCAS'|'COLORS'
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [BUSCANDO SEGMENTO X KEY] NO se encontro el segmento buscado, devuelvo NULL
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [Buscar Key] NO EXISTE NINGUN SEGMENTO ASOCIADA A 'MARCAS'; Devuelvo ERROR
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [INSERT] Verifico si debo realizar LRU
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [INSERT] NO se encontro la posicion a donde debo ir
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [INSERT] Verifico 1* si esta FULL memoria
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [INSERT] Tampoco se encontro que existe un segmento asociado a la tabla 'MARCAS'. Procedo a crear el segmento, tabla de pagina y alojar la pagina en memoria
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] En crear Tabla de pagina y pagina nueva porque no estan con la key 1
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Tabla pagina creada
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Verifico si hay espacio libre en Memoria
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [BITMAP] Verifico si tiene espacio libre del total de paginas que son: '15'
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] La pagina '2' esta LIBRE y la usare para guardar la pagina
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Asigno el espacio libre a la tabla pagina y a la pagina
+[INFO] 00:07:22:37 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Procedo a asignar la tabla y la pagina a dicha posicion
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [CREANDO PAGINA Y VALOR] Pagina y valor creados: KEY|VALOR|TIMESTAMP: 1|"Adidas"|1564628678771
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [asignarNuevaTablaAPosicionLibre] Se han guardado exitosamente los datos. Ahora mismo hay '15' espacios libres
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [VERIFICANDO SI ESTA FULL] 1 Nodo no fue modificado por lo tanto no esta FULL
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [MODIFICAR BLOQUE LRU] DATOS INGRESADOS: NOMBRE TABLA <MARCAS>. NUMERO PAGINA: <2>. TIMESTAMP: <1564628842037> ESTADO PAGINA: <0>
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [asignarNuevaTablaAPosicionLibre]POSICION 2. VALORES PUESTOS en bl: KEY|VALUE|TIMESTAMP 1|"Adidas"|1564628678771
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] ASIGNACION COMPLETADA
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Desactivo el mutex mutex_tabla_pagina_en_modificacion
+[WARNING] 00:07:22:38 Proceso Memoria/(14158:14163): NUMERO DE PAGINA PARA LA TABLA Y KEY ASIGNADA: TABLA [MARCAS]. KEY: [1]. PAGINA: [2]
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [INSERT] Tabla de pagina referenciada creada con info NROPAGINA|KEY|FLAG: 2|1|FALSE
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] Creando segmento para la tabla 'MARCAS' asociando al nro de pagina '2'
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] Estructura de la nueva tabla creada
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] PATH COPIADO 'MARCAS'
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] CREANDO OTRO SEGMENTO A LA TABLA SEGMENTOS 'MARCAS'
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO]SEGMENTO 'MARCAS' CREADO!!!
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [INSERT] SEGMENTO Creado para la tabla 'MARCAS' . Como es el primer segmento TABLA SEGMENTOS apuntara este elemento
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [INSERT] Se ha creado un segmento para la tabla 'MARCAS'
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [SELECT] Agregué el valor a memoria
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [RESOLVIENDO PEDIDO] SELECT hecho correctamente. Valor "Adidas" obtenido
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [LOGGEANDO ESTADO ACTUAL MEMORIA]
+[INFO] 00:07:22:38 Proceso Memoria/(14158:14163): [CONSOLA] Resuelto OK. Respuesta obtenida: "Adidas"
+[INFO] 00:07:26:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:07:26:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:07:26:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:07:26:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:07:26:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:07:26:66 Proceso Memoria/(14158:14160): No hay memorias caidas
+[INFO] 00:07:26:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:07:26:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] La próxima ejecución será en 10000 milisegundos
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [CONSOLA] Request: SELECT CELULARES 1
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [SELECT] Voy a resolver SELECT
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [WRAPPER DE SELECT] Quiero obtener la key 1 de la tabla CELULARES
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [FUNCION SELECT] ENTRANDO POR NUEVA PETICION. Valor de key de los datos solicitados: SEGMENTO: CELULARES KEY: 1
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [Buscar Key] Empiezo a buscar la key '1' perteneciente a la tabla 'CELULARES'
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Buscando el segmento referido para la tabla 'CELULARES'
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'CELULARES'|'MARCAS'
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'CELULARES'|'COLORS'
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [BUSCANDO SEGMENTO X KEY] NO se encontro el segmento buscado, devuelvo NULL
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [Buscar Key] NO EXISTE NINGUN SEGMENTO ASOCIADA A 'CELULARES'; Devuelvo ERROR
+[ERROR] 00:07:29:511 Proceso Memoria/(14158:14163): [FUNCION SELECT] ERROR, NO SE ENCONTRO NADA. SEGMENTO BUSCADO: <CELULARES>. KEY BUSCADA: <1>.DEVUELVO ERROR
+[WARNING] 00:07:29:511 Proceso Memoria/(14158:14163): [WRAPPER DE SELECT] Valor no encontrado
+[WARNING] 00:07:29:511 Proceso Memoria/(14158:14163): [SELECT] En memoria no existe la tabla o no existe la key en la misma
+[INFO] 00:07:29:511 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me voy a intentar conectar a ip: <127.0.0.1> puerto: <5003>
+[INFO] 00:07:29:512 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me conecté con éxito al lfs. Espero su hs
+[INFO] 00:07:29:512 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 00:07:29:512 Proceso Memoria/(14158:14163): [SELECT] Ya tengo un canal para comunicarme con el lfs
+[INFO] 00:07:29:512 Proceso Memoria/(14158:14163): [SELECT] Voy a mandar select al lfs
+[INFO] 00:07:29:512 Proceso Memoria/(14158:14163): [SELECT] Espero respuesta del lfs
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [SELECT] Recibi respuesta del lfs
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [SELECT] El lfs contesto
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [SELECT] El lfs pudo resolver el select con exito
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [SELECT] REPUESTA (VALOR|TIMESTAMP): iPhone|1564628700858
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [SELECT] REPUESTA TRANSFORMADA A: INSERT CELULARES 1 "iPhone" 1564628700858
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [INSERT] Voy a resolver INSERT
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [INSERT] Voy a agregar "iPhone" en la key 1 de la tabla CELULARES
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [INSERT] En funcion INSERT
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [INSERT] Me pongo a buscar el segmento y la tabla en base a 'CELULARES' y '1'
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [Buscar Key] Empiezo a buscar la key '1' perteneciente a la tabla 'CELULARES'
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Buscando el segmento referido para la tabla 'CELULARES'
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'CELULARES'|'MARCAS'
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'CELULARES'|'COLORS'
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [BUSCANDO SEGMENTO X KEY] NO se encontro el segmento buscado, devuelvo NULL
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [Buscar Key] NO EXISTE NINGUN SEGMENTO ASOCIADA A 'CELULARES'; Devuelvo ERROR
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [INSERT] Verifico si debo realizar LRU
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [INSERT] NO se encontro la posicion a donde debo ir
+[INFO] 00:07:29:514 Proceso Memoria/(14158:14163): [INSERT] Verifico 1* si esta FULL memoria
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [INSERT] Tampoco se encontro que existe un segmento asociado a la tabla 'CELULARES'. Procedo a crear el segmento, tabla de pagina y alojar la pagina en memoria
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] En crear Tabla de pagina y pagina nueva porque no estan con la key 1
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Tabla pagina creada
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Verifico si hay espacio libre en Memoria
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [BITMAP] Verifico si tiene espacio libre del total de paginas que son: '15'
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] La pagina '3' esta LIBRE y la usare para guardar la pagina
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Asigno el espacio libre a la tabla pagina y a la pagina
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Procedo a asignar la tabla y la pagina a dicha posicion
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [CREANDO PAGINA Y VALOR] Pagina y valor creados: KEY|VALOR|TIMESTAMP: 1|"iPhone"|1564628700858
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [asignarNuevaTablaAPosicionLibre] Se han guardado exitosamente los datos. Ahora mismo hay '15' espacios libres
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [VERIFICANDO SI ESTA FULL] 1 Nodo no fue modificado por lo tanto no esta FULL
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [MODIFICAR BLOQUE LRU] DATOS INGRESADOS: NOMBRE TABLA <CELULARES>. NUMERO PAGINA: <3>. TIMESTAMP: <1564628849514> ESTADO PAGINA: <0>
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [asignarNuevaTablaAPosicionLibre]POSICION 3. VALORES PUESTOS en bl: KEY|VALUE|TIMESTAMP 1|"iPhone"|1564628700858
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] ASIGNACION COMPLETADA
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Desactivo el mutex mutex_tabla_pagina_en_modificacion
+[WARNING] 00:07:29:515 Proceso Memoria/(14158:14163): NUMERO DE PAGINA PARA LA TABLA Y KEY ASIGNADA: TABLA [CELULARES]. KEY: [1]. PAGINA: [3]
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [INSERT] Tabla de pagina referenciada creada con info NROPAGINA|KEY|FLAG: 3|1|FALSE
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] Creando segmento para la tabla 'CELULARES' asociando al nro de pagina '3'
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] Estructura de la nueva tabla creada
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] PATH COPIADO 'CELULARES'
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO] CREANDO OTRO SEGMENTO A LA TABLA SEGMENTOS 'CELULARES'
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [CREANDO SEGMENTO]SEGMENTO 'CELULARES' CREADO!!!
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [INSERT] SEGMENTO Creado para la tabla 'CELULARES' . Como es el primer segmento TABLA SEGMENTOS apuntara este elemento
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [INSERT] Se ha creado un segmento para la tabla 'CELULARES'
+[INFO] 00:07:29:515 Proceso Memoria/(14158:14163): [SELECT] Agregué el valor a memoria
+[INFO] 00:07:29:516 Proceso Memoria/(14158:14163): [RESOLVIENDO PEDIDO] SELECT hecho correctamente. Valor "iPhone" obtenido
+[INFO] 00:07:29:516 Proceso Memoria/(14158:14163): [LOGGEANDO ESTADO ACTUAL MEMORIA]
+[INFO] 00:07:29:516 Proceso Memoria/(14158:14163): [CONSOLA] Resuelto OK. Respuesta obtenida: "iPhone"
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [CONSOLA] Request: SELECT CELULARES 2
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [SELECT] Voy a resolver SELECT
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [WRAPPER DE SELECT] Quiero obtener la key 2 de la tabla CELULARES
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [FUNCION SELECT] ENTRANDO POR NUEVA PETICION. Valor de key de los datos solicitados: SEGMENTO: CELULARES KEY: 2
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [Buscar Key] Empiezo a buscar la key '2' perteneciente a la tabla 'CELULARES'
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Buscando el segmento referido para la tabla 'CELULARES'
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'CELULARES'|'CELULARES'
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [BUSCANDO SEGMENTO X NOMBRETABLA] Se encontro el segmento buscado
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [Buscar Key] Se encontro el segmento con nombre 'CELULARES'
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [Buscar Key Por Tabla PAGINA] Por buscar la KEY '2'
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [Buscar Key Por Tabla PAGINA] NO SE ENCONTRO LA PAGINA PARA LA KEY EN LA POSICION PARA LA KEY2
+[ERROR] 00:07:30:572 Proceso Memoria/(14158:14163): [FUNCION SELECT] ERROR, NO SE ENCONTRO NADA. SEGMENTO BUSCADO: <CELULARES>. KEY BUSCADA: <2>.DEVUELVO ERROR
+[WARNING] 00:07:30:572 Proceso Memoria/(14158:14163): [WRAPPER DE SELECT] Valor no encontrado
+[WARNING] 00:07:30:572 Proceso Memoria/(14158:14163): [SELECT] En memoria no existe la tabla o no existe la key en la misma
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me voy a intentar conectar a ip: <127.0.0.1> puerto: <5003>
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me conecté con éxito al lfs. Espero su hs
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [SELECT] Ya tengo un canal para comunicarme con el lfs
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [SELECT] Voy a mandar select al lfs
+[INFO] 00:07:30:572 Proceso Memoria/(14158:14163): [SELECT] Espero respuesta del lfs
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [SELECT] Recibi respuesta del lfs
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [SELECT] El lfs contesto
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [SELECT] El lfs pudo resolver el select con exito
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [SELECT] REPUESTA (VALOR|TIMESTAMP): Android|1564628701370
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [SELECT] REPUESTA TRANSFORMADA A: INSERT CELULARES 2 "Android" 1564628701370
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [INSERT] Voy a resolver INSERT
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [INSERT] Voy a agregar "Android" en la key 2 de la tabla CELULARES
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [INSERT] En funcion INSERT
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [INSERT] Me pongo a buscar el segmento y la tabla en base a 'CELULARES' y '2'
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [Buscar Key] Empiezo a buscar la key '2' perteneciente a la tabla 'CELULARES'
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Buscando el segmento referido para la tabla 'CELULARES'
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [BUSCANDO KEY] Nombre buscado | NOmbre obtenido 'CELULARES'|'CELULARES'
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [BUSCANDO SEGMENTO X NOMBRETABLA] Se encontro el segmento buscado
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [Buscar Key] Se encontro el segmento con nombre 'CELULARES'
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [Buscar Key Por Tabla PAGINA] Por buscar la KEY '2'
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [Buscar Key Por Tabla PAGINA] NO SE ENCONTRO LA PAGINA PARA LA KEY EN LA POSICION PARA LA KEY2
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [INSERT] Verifico si debo realizar LRU
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [INSERT] NO se encontro la posicion a donde debo ir
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [INSERT] Verifico 1* si esta FULL memoria
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [INSERT] Se encontro un segmento asociado a la tabla 'CELULARES'
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] En crear Tabla de pagina y pagina nueva porque no estan con la key 2
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Tabla pagina creada
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Verifico si hay espacio libre en Memoria
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [BITMAP] Verifico si tiene espacio libre del total de paginas que son: '15'
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [BITMAP] Busco key [2] en el segmento 'CELULARES'
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [BITMAP] No se encontro en el segmento  'CELULARES' la key '2' buscad. Paso a crearla!
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] La pagina '4' esta LIBRE y la usare para guardar la pagina
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Asigno el espacio libre a la tabla pagina y a la pagina
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Procedo a asignar la tabla y la pagina a dicha posicion
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [CREANDO PAGINA Y VALOR] Pagina y valor creados: KEY|VALOR|TIMESTAMP: 2|"Android"|1564628701370
+[INFO] 00:07:30:573 Proceso Memoria/(14158:14163): [asignarNuevaTablaAPosicionLibre] Se han guardado exitosamente los datos. Ahora mismo hay '15' espacios libres
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [VERIFICANDO SI ESTA FULL] 1 Nodo no fue modificado por lo tanto no esta FULL
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [MODIFICAR BLOQUE LRU] DATOS INGRESADOS: NOMBRE TABLA <CELULARES>. NUMERO PAGINA: <4>. TIMESTAMP: <1564628850573> ESTADO PAGINA: <0>
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [asignarNuevaTablaAPosicionLibre]POSICION 4. VALORES PUESTOS en bl: KEY|VALUE|TIMESTAMP 2|"Android"|1564628701370
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] ASIGNACION COMPLETADA
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [Crear Tabla y pagina] Desactivo el mutex mutex_tabla_pagina_en_modificacion
+[WARNING] 00:07:30:574 Proceso Memoria/(14158:14163): NUMERO DE PAGINA PARA LA TABLA Y KEY ASIGNADA: TABLA [CELULARES]. KEY: [2]. PAGINA: [4]
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [INSERT] Tabla de pagina referenciada creada con info NROPAGINA|KEY|FLAG: 4|2|FALSE
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [DBG] 1
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [DBG] Antes del while
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [DBG] Despues del while
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [INSERT] Se ha creado una tabla de pagina. Nro de su posicion es aux y nueva '4'/'4'
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [INSERT] Se ha actualizado segmento para la tabla 'CELULARES'
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [INSERT HECHO] Compruebo si se añadio la nueva tabla de paginas de 'CELULARES'
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [SELECT] Agregué el valor a memoria
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [RESOLVIENDO PEDIDO] SELECT hecho correctamente. Valor "Android" obtenido
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [LOGGEANDO ESTADO ACTUAL MEMORIA]
+[INFO] 00:07:30:574 Proceso Memoria/(14158:14163): [CONSOLA] Resuelto OK. Respuesta obtenida: "Android"
+[WARNING] 00:07:36:66 Proceso Memoria/(14158:14164): [JOURNAL] ENTRANDO
+[INFO] 00:07:36:66 Proceso Memoria/(14158:14164): [JOURNAL] PROCEDO A ENVIAR LA INFORMACION A LISANDRA
+[INFO] 00:07:36:66 Proceso Memoria/(14158:14164): [JOURNAL] ENVIO EL MENSAJE A LISANDRA
+[INFO] 00:07:36:66 Proceso Memoria/(14158:14164): [ENVIANDO DATOS A LFS] Voy a crear conexión con LFS
+[INFO] 00:07:36:66 Proceso Memoria/(14158:14164): [CONECTANDO A LFS] Me voy a intentar conectar a ip: <127.0.0.1> puerto: <5003>
+[INFO] 00:07:36:66 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 00:07:36:66 Proceso Memoria/(14158:14164): [CONECTANDO A LFS] Me conecté con éxito al lfs. Espero su hs
+[INFO] 00:07:36:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 00:07:36:66 Proceso Memoria/(14158:14160): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14160): No hay memorias caidas
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14160): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14160): [HILO GOSSIPING] La próxima ejecución será en 10000 milisegundos
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [ENVIANDO DATOS A LFS] Voy a enviarles los datos modificados
+[ERROR] 00:07:36:67 Proceso Memoria/(14158:14164): [JOURNAL] No se pudo enviar ningun registro. No se hace el journal
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [JOURNAL] JOURNAL HECHO, LISANDRA HA RECIBIDO BIEN 0 REGISTROS, LIMPIO TODO
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [JOURNAL] LIBERANDO DATOSJOURNAL
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [JOURNAL] DATOSJOURNAL LIBERADO
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [limpiezaGlobalDeMemoriaYSegmentos] COMIENZO A LIBERAR SEGMENTOS
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [limpiar_y_destruir_todo_segmento] Entrando, comienza la limpieza total
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [limpiar_y_destruir_todo_segmento] Limpiando segmento: CELULARES
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [LIBERAR SEGMENTO] Liberando todas las tablas y paginas del segmento y a si mismo 'CELULARES'
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [LIBERAR SEGMENTO] TABLA DE LA PAGINA LIBERADO POR COMPLETO, LIBERE EN TOTAL 2 TABLAS DE PAGINAS
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [LIBERAR SEGMENTO] SEGMENTO LIBERADO
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [limpiar_y_destruir_todo_segmento] Limpiando segmento: MARCAS
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [LIBERAR SEGMENTO] Liberando todas las tablas y paginas del segmento y a si mismo 'MARCAS'
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [LIBERAR SEGMENTO] TABLA DE LA PAGINA LIBERADO POR COMPLETO, LIBERE EN TOTAL 1 TABLAS DE PAGINAS
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [LIBERAR SEGMENTO] SEGMENTO LIBERADO
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [limpiar_y_destruir_todo_segmento] Limpiando segmento: COLORS
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [LIBERAR SEGMENTO] Liberando todas las tablas y paginas del segmento y a si mismo 'COLORS'
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [LIBERAR SEGMENTO] TABLA DE LA PAGINA LIBERADO POR COMPLETO, LIBERE EN TOTAL 2 TABLAS DE PAGINAS
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [LIBERAR SEGMENTO] SEGMENTO LIBERADO
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [limpiar_y_destruir_todo_segmento] TODOS LOS SEGMENTOS FUERON LIBERADOS
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [limpiezaGlobalDeMemoriaYSegmentos] COMIENZO A LIBERAR MEMORIAS
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [limpiezaGlobalDeMemoriaYSegmentos] MEMORIAS LIBERADAS
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): [JOURNAL AUTOMATICO] 0 registros recibidos ok por LFS
+[INFO] 00:07:36:67 Proceso Memoria/(14158:14164): PROXIMO JOURNAL EN 60000 milisegundos>
+[INFO] 00:07:41:429 Proceso Memoria/(14158:14163): [CONSOLA] Request: SALIR
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [Liberando] Liberando memoria Gossiping
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [Liberando] Cerrando clientes
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [CLIENTE] Cerrando sockets de clientes activos. Hay 0
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [CLIENTE] Todos los sockets de clientes fueron cerrados
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERAR] Por liberar Segmentos y sus tablas de paginas
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERAR SEGMENTO] EMPIEZO A LIBERAR TODOS LOS SEGMENTOS
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERAR] Empiezo a liberar todos los elementos que se han inicializado
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERAR] Por liberar memoria
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERAR] memoria Liberada
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERAR] Por liberar BItmap
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERAR] BITMAP destruido
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERAR] Por liberar Struct configuracion
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERANDO CONFIG]
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERAR] Struct configuracion Liberada
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): [LIBERAR] Liberando log_memoria
+[INFO] 00:07:41:430 Proceso Memoria/(14158:14158): >>>>>>>>>>>>>>>FIN DE PROCESO MEMORIA<<<<<<<<<<<<<<<

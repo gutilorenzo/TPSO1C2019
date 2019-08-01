@@ -1,0 +1,450 @@
+[INFO] 00:06:31:781 Proceso Lissandra File System/(14150:14150): [LOG CREADO] continuamos cargando la estructura de configuracion.
+[INFO] 00:06:31:781 Proceso Lissandra File System/(14150:14150): Por reservar memoria para variable de configuracion.
+[INFO] 00:06:31:781 Proceso Lissandra File System/(14150:14150): Por crear el archivo de config para levantar archivo con datos.
+[INFO] 00:06:31:781 Proceso Lissandra File System/(14150:14150): LissandraFS: Leyendo Archivo de Configuracion...
+[INFO] 00:06:31:781 Proceso Lissandra File System/(14150:14150): Almacenando el puerto
+[INFO] 00:06:31:781 Proceso Lissandra File System/(14150:14150): El puerto de escucha es: 5003
+[INFO] 00:06:31:781 Proceso Lissandra File System/(14150:14150): Almacenando el PUNTO DE MONTAJE: /home/martin/Documentos/lfs-base
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): El punto de montaje es: /home/martin/Documentos/lfs-base
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): Y ahora la variable tabla_path queda con: /home/martin/Documentos/lfs-base/Tables/
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): Almacenando el retardo
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): El retardo de respuesta es: 0
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): Almacenando el tamanio del valor de una key
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): El tamanio del valor es: 60
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): Almacenando el puerto
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): El tiempo de dumpeo es: 20000
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): Almacenando la IP
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): La IP es: 127.0.0.1
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): levantando metadata del File System
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): ruta de la metadata: /home/martin/Documentos/lfs-base/Metadata/Metadata
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): LFS: Leyendo metadata...
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): Almacenando tamanio de bloque
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): el tamanio del bloque es: 64
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): Almacenando cantidad de bloques
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): La cantidad de bloques es: 4096
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): Almacenando magic number
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): el magic number es: LISSANDRA
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 00:06:31:782 Proceso Lissandra File System/(14150:14150): Voy a crear los bloques
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): los bloques fueron creados
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): la configuracion y la metadata se levantaron ok
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Busco tablas en disco
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Iniciando semáforos tabla MARCAS
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/MARCAS/metadata
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/lfs-base/Tables/MARCAS/metadata
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): LFS: Leyendo metadata...
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Almacenando consistencia
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): La consistencia  es: EC
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Almacenando particiones
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Las particiones son : 4
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): el tiempo de compactacion es: 600000
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Iniciando hilo compactación tabla MARCAS
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Iniciando semáforos tabla COLORS
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS/metadata
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/lfs-base/Tables/COLORS/metadata
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): LFS: Leyendo metadata...
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14151): [COMPACTACION] Iniciando hilo tabla MARCAS. Retardo 600000 milisegundos
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Almacenando consistencia
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): La consistencia  es: SC
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Almacenando particiones
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Las particiones son : 4
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): el tiempo de compactacion es: 600000
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Iniciando hilo compactación tabla COLORS
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Iniciando semáforos tabla CELULARES
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES/metadata
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/lfs-base/Tables/CELULARES/metadata
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14152): [COMPACTACION] Iniciando hilo tabla COLORS. Retardo 600000 milisegundos
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): LFS: Leyendo metadata...
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Almacenando consistencia
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): La consistencia  es: SHC
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Almacenando particiones
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Las particiones son : 4
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): el tiempo de compactacion es: 600000
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Iniciando hilo compactación tabla CELULARES
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Voy a cargar bitmap
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Path del bitmap: /home/martin/Documentos/lfs-base/Metadata/Bitmap.bin
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14153): [COMPACTACION] Iniciando hilo tabla CELULARES. Retardo 600000 milisegundos
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): existe archivo, se procede a abrir el bitmap
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): Sin error
+[INFO] 00:06:31:815 Proceso Lissandra File System/(14150:14150): cantidad de bloques libres en el bitmap: 4080
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14150): cantidad de bloques ocupados: 16
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14150): ocupando bloque: 0
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14150): se ocupo bien? tiene que ser 1: 1
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14150): cantidad de bloques ocupados: 17 = 1?
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14150): primer bloque libre: 17
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14150): okey... vamos a liberarlo
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14150): se libero bien? tiene que ser 0: 0
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14150): cantidad de bloques ocupados: 16 = 0?
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Entrando a hilo de escucha del servidor del LFS
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Esperando recibir un cliente
+[INFO] 00:06:31:816 Proceso Lissandra File System/(14150:14155): En el hilo de consola
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Cliente intentando conectarse
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14156): [CLIENTE] Dando de alta cliente en socket 7
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14156): [CLIENTE] Socket cliente 7 agregado a la lista de activos
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14156): [CLIENTE] Hay 1 clientes activos
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Esperando recibir un cliente
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14159): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14159): [CLIENTE] Empiezo a esperar mensajes
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14159): [CLIENTE] Recibí un mensaje
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14159): [CLIENTE] El cliente se desconectó
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14159): [CLIENTE] Voy a dar de baja socket 7
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14159): [CLIENTE] Socket cliente 7 sacado de la lista de activos
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14159): [CLIENTE] Hay 0 clientes activos
+[INFO] 00:06:36:65 Proceso Lissandra File System/(14150:14159): [CLIENTE] Finalizando el hilo
+[INFO] 00:06:51:816 Proceso Lissandra File System/(14150:14157): Es tiempo de dump, hay cosas en la memtable?
+[INFO] 00:06:51:816 Proceso Lissandra File System/(14150:14157): La memtable esta vacia
+[INFO] 00:07:11:816 Proceso Lissandra File System/(14150:14157): Es tiempo de dump, hay cosas en la memtable?
+[INFO] 00:07:11:816 Proceso Lissandra File System/(14150:14157): La memtable esta vacia
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Cliente intentando conectarse
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14156): [CLIENTE] Dando de alta cliente en socket 8
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14156): [CLIENTE] Socket cliente 8 agregado a la lista de activos
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14156): [CLIENTE] Hay 1 clientes activos
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Esperando recibir un cliente
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [CLIENTE] Empiezo a esperar mensajes
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [CLIENTE] El mensaje recibido es un request
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [RESOLVIENDO PEDIDO] Llego SELECT COLORS 1
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [RESOLVIENDO SELECT] Entro a función
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [ARMAR PATH TABLA] tabla recibida COLORS
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/lfs-base/Tables/COLORS
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [ OK ] La tabla ya existe.
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [DEBUG] Voy a bloquear tabla COLORS
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS/metadata
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/lfs-base/Tables/COLORS/metadata
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): LFS: Leyendo metadata...
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): Almacenando consistencia
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): La consistencia  es: SC
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): Almacenando particiones
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): Las particiones son : 4
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): el tiempo de compactacion es: 600000
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): La key 1 debe almacenarse en la particion 1
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [ARMAR PATH TABLA] tabla recibida COLORS
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): La ruta de la particion es: /home/martin/Documentos/lfs-base/Tables/COLORS/1.bin
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): Size encontrado del temp es: 0
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 1
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [OBTENIENDO KEY BLOQUES] No encontré un registro con la key indicada
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [ARMAR PATH TABLA] tabla recibida COLORS
+[INFO] 00:07:14:868 Proceso Lissandra File System/(14150:14203): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Busco la key 1 en la tabla COLORS
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Tengo 1 temporales
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Buscando en el temporal 0 que es /home/martin/Documentos/lfs-base/Tables/COLORS/0.tmp
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Size encontrado del temp es: 34
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 1
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [OBTENIENDO KEY BLOQUES] El registro con mayor timestamp es <1564628656937;1;Black>
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Registro encontrado: <1564628656937;1;Black>
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [ARMAR PATH TABLA] tabla recibida COLORS
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Busco la key 1 en la tabla COLORS
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Tengo 0 temporales
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [DEBUG] Voy a desbloquear tabla COLORS
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [DEBUG] Voy a bloquear memtable
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [DEBUG] Voy a desbloquear memtable
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): el timestamp mas grande es 1564628656937
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): Registro obtenido: <1564628656937;1;Black>
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [RESOLVIENDO PEDIDO] SELECT hecho correctamente. Valor Black|1564628656937 obtenido
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [CLIENTE] La respuesta fue enviada con éxito al cliente
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [CLIENTE] El cliente se desconectó
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [CLIENTE] Voy a dar de baja socket 8
+[INFO] 00:07:14:869 Proceso Lissandra File System/(14150:14203): [CLIENTE] Socket cliente 8 sacado de la lista de activos
+[INFO] 00:07:14:870 Proceso Lissandra File System/(14150:14203): [CLIENTE] Hay 0 clientes activos
+[INFO] 00:07:14:870 Proceso Lissandra File System/(14150:14203): [CLIENTE] Finalizando el hilo
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Cliente intentando conectarse
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14156): [CLIENTE] Dando de alta cliente en socket 7
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14156): [CLIENTE] Socket cliente 7 agregado a la lista de activos
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14156): [CLIENTE] Hay 1 clientes activos
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Esperando recibir un cliente
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [CLIENTE] Empiezo a esperar mensajes
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [CLIENTE] El mensaje recibido es un request
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [RESOLVIENDO PEDIDO] Llego SELECT COLORS 2
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [RESOLVIENDO SELECT] Entro a función
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [ARMAR PATH TABLA] tabla recibida COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/lfs-base/Tables/COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [ OK ] La tabla ya existe.
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [DEBUG] Voy a bloquear tabla COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS/metadata
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/lfs-base/Tables/COLORS/metadata
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): LFS: Leyendo metadata...
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Almacenando consistencia
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): La consistencia  es: SC
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Almacenando particiones
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Las particiones son : 4
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): el tiempo de compactacion es: 600000
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): La key 2 debe almacenarse en la particion 2
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [ARMAR PATH TABLA] tabla recibida COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): La ruta de la particion es: /home/martin/Documentos/lfs-base/Tables/COLORS/2.bin
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Size encontrado del temp es: 0
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 2
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [OBTENIENDO KEY BLOQUES] No encontré un registro con la key indicada
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [ARMAR PATH TABLA] tabla recibida COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Busco la key 2 en la tabla COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Tengo 1 temporales
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Buscando en el temporal 0 que es /home/martin/Documentos/lfs-base/Tables/COLORS/0.tmp
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Size encontrado del temp es: 34
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 2
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [OBTENIENDO KEY BLOQUES] El registro con mayor timestamp es <1564628656527;2;Red>
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Registro encontrado: <1564628656527;2;Red>
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [ARMAR PATH TABLA] tabla recibida COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Busco la key 2 en la tabla COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Tengo 0 temporales
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [DEBUG] Voy a desbloquear tabla COLORS
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [DEBUG] Voy a bloquear memtable
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): [DEBUG] Voy a desbloquear memtable
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): el timestamp mas grande es 1564628656527
+[INFO] 00:07:15:941 Proceso Lissandra File System/(14150:14204): Registro obtenido: <1564628656527;2;Red>
+[INFO] 00:07:15:942 Proceso Lissandra File System/(14150:14204): [RESOLVIENDO PEDIDO] SELECT hecho correctamente. Valor Red|1564628656527 obtenido
+[INFO] 00:07:15:942 Proceso Lissandra File System/(14150:14204): [CLIENTE] La respuesta fue enviada con éxito al cliente
+[INFO] 00:07:15:943 Proceso Lissandra File System/(14150:14204): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:15:943 Proceso Lissandra File System/(14150:14204): [CLIENTE] El cliente se desconectó
+[INFO] 00:07:15:943 Proceso Lissandra File System/(14150:14204): [CLIENTE] Voy a dar de baja socket 7
+[INFO] 00:07:15:943 Proceso Lissandra File System/(14150:14204): [CLIENTE] Socket cliente 7 sacado de la lista de activos
+[INFO] 00:07:15:943 Proceso Lissandra File System/(14150:14204): [CLIENTE] Hay 0 clientes activos
+[INFO] 00:07:15:943 Proceso Lissandra File System/(14150:14204): [CLIENTE] Finalizando el hilo
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Cliente intentando conectarse
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14156): [CLIENTE] Dando de alta cliente en socket 8
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14156): [CLIENTE] Socket cliente 8 agregado a la lista de activos
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14156): [CLIENTE] Hay 1 clientes activos
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Esperando recibir un cliente
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [CLIENTE] Empiezo a esperar mensajes
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [CLIENTE] El mensaje recibido es un request
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [RESOLVIENDO PEDIDO] Llego SELECT MARCAS 1
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [RESOLVIENDO SELECT] Entro a función
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [ARMAR PATH TABLA] tabla recibida MARCAS
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/MARCAS
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/lfs-base/Tables/MARCAS
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [ OK ] La tabla ya existe.
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [DEBUG] Voy a bloquear tabla MARCAS
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/MARCAS/metadata
+[INFO] 00:07:22:36 Proceso Lissandra File System/(14150:14205): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/lfs-base/Tables/MARCAS/metadata
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): LFS: Leyendo metadata...
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Almacenando consistencia
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): La consistencia  es: EC
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Almacenando particiones
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Las particiones son : 4
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): el tiempo de compactacion es: 600000
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): La key 1 debe almacenarse en la particion 1
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [ARMAR PATH TABLA] tabla recibida MARCAS
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/MARCAS
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): La ruta de la particion es: /home/martin/Documentos/lfs-base/Tables/MARCAS/1.bin
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Size encontrado del temp es: 0
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 1
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [OBTENIENDO KEY BLOQUES] No encontré un registro con la key indicada
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [ARMAR PATH TABLA] tabla recibida MARCAS
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/MARCAS
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Busco la key 1 en la tabla MARCAS
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Tengo 2 temporales
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Buscando en el temporal 0 que es /home/martin/Documentos/lfs-base/Tables/MARCAS/2.tmp
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Size encontrado del temp es: 17
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 1
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [OBTENIENDO KEY BLOQUES] El registro con mayor timestamp es <1564628678466;1;Nike>
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Registro encontrado: <1564628678466;1;Nike>
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Buscando en el temporal 1 que es /home/martin/Documentos/lfs-base/Tables/MARCAS/1.tmp
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Size encontrado del temp es: 19
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 1
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [OBTENIENDO KEY BLOQUES] El registro con mayor timestamp es <1564628678771;1;Adidas>
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Nuevo registro encontrado: <1564628678771;1;Adidas>
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Pisa al anterior por tener timestamp más grande
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [ARMAR PATH TABLA] tabla recibida MARCAS
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/MARCAS
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Busco la key 1 en la tabla MARCAS
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Tengo 0 temporales
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [DEBUG] Voy a desbloquear tabla MARCAS
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [DEBUG] Voy a bloquear memtable
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [DEBUG] Voy a desbloquear memtable
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): el timestamp mas grande es 1564628678771
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): Registro obtenido: <1564628678771;1;Adidas>
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [RESOLVIENDO PEDIDO] SELECT hecho correctamente. Valor Adidas|1564628678771 obtenido
+[INFO] 00:07:22:37 Proceso Lissandra File System/(14150:14205): [CLIENTE] La respuesta fue enviada con éxito al cliente
+[INFO] 00:07:22:38 Proceso Lissandra File System/(14150:14205): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:22:38 Proceso Lissandra File System/(14150:14205): [CLIENTE] El cliente se desconectó
+[INFO] 00:07:22:38 Proceso Lissandra File System/(14150:14205): [CLIENTE] Voy a dar de baja socket 8
+[INFO] 00:07:22:38 Proceso Lissandra File System/(14150:14205): [CLIENTE] Socket cliente 8 sacado de la lista de activos
+[INFO] 00:07:22:38 Proceso Lissandra File System/(14150:14205): [CLIENTE] Hay 0 clientes activos
+[INFO] 00:07:22:38 Proceso Lissandra File System/(14150:14205): [CLIENTE] Finalizando el hilo
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Cliente intentando conectarse
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14156): [CLIENTE] Dando de alta cliente en socket 7
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14156): [CLIENTE] Socket cliente 7 agregado a la lista de activos
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14156): [CLIENTE] Hay 1 clientes activos
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Esperando recibir un cliente
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [CLIENTE] Empiezo a esperar mensajes
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [CLIENTE] El mensaje recibido es un request
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [RESOLVIENDO PEDIDO] Llego SELECT CELULARES 1
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [RESOLVIENDO SELECT] Entro a función
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [ARMAR PATH TABLA] tabla recibida CELULARES
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/lfs-base/Tables/CELULARES
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [ OK ] La tabla ya existe.
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [DEBUG] Voy a bloquear tabla CELULARES
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES/metadata
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/lfs-base/Tables/CELULARES/metadata
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): LFS: Leyendo metadata...
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): Almacenando consistencia
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): La consistencia  es: SHC
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): Almacenando particiones
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): Las particiones son : 4
+[INFO] 00:07:29:512 Proceso Lissandra File System/(14150:14206): el tiempo de compactacion es: 600000
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): La key 1 debe almacenarse en la particion 1
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [ARMAR PATH TABLA] tabla recibida CELULARES
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): La ruta de la particion es: /home/martin/Documentos/lfs-base/Tables/CELULARES/1.bin
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): Size encontrado del temp es: 0
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 1
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [OBTENIENDO KEY BLOQUES] No encontré un registro con la key indicada
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [ARMAR PATH TABLA] tabla recibida CELULARES
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): Busco la key 1 en la tabla CELULARES
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): Tengo 1 temporales
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): Buscando en el temporal 0 que es /home/martin/Documentos/lfs-base/Tables/CELULARES/2.tmp
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): Size encontrado del temp es: 39
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 1
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [OBTENIENDO KEY BLOQUES] El registro con mayor timestamp es <1564628700858;1;iPhone>
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): Registro encontrado: <1564628700858;1;iPhone>
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [ARMAR PATH TABLA] tabla recibida CELULARES
+[INFO] 00:07:29:513 Proceso Lissandra File System/(14150:14206): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES
+[INFO] 00:07:29:514 Proceso Lissandra File System/(14150:14206): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 00:07:29:514 Proceso Lissandra File System/(14150:14206): Busco la key 1 en la tabla CELULARES
+[INFO] 00:07:29:514 Proceso Lissandra File System/(14150:14206): Tengo 0 temporales
+[INFO] 00:07:29:514 Proceso Lissandra File System/(14150:14206): [DEBUG] Voy a desbloquear tabla CELULARES
+[INFO] 00:07:29:514 Proceso Lissandra File System/(14150:14206): [DEBUG] Voy a bloquear memtable
+[INFO] 00:07:29:514 Proceso Lissandra File System/(14150:14206): [DEBUG] Voy a desbloquear memtable
+[INFO] 00:07:29:514 Proceso Lissandra File System/(14150:14206): el timestamp mas grande es 1564628700858
+[INFO] 00:07:29:514 Proceso Lissandra File System/(14150:14206): Registro obtenido: <1564628700858;1;iPhone>
+[INFO] 00:07:29:514 Proceso Lissandra File System/(14150:14206): [RESOLVIENDO PEDIDO] SELECT hecho correctamente. Valor iPhone|1564628700858 obtenido
+[INFO] 00:07:29:514 Proceso Lissandra File System/(14150:14206): [CLIENTE] La respuesta fue enviada con éxito al cliente
+[INFO] 00:07:29:516 Proceso Lissandra File System/(14150:14206): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:29:516 Proceso Lissandra File System/(14150:14206): [CLIENTE] El cliente se desconectó
+[INFO] 00:07:29:516 Proceso Lissandra File System/(14150:14206): [CLIENTE] Voy a dar de baja socket 7
+[INFO] 00:07:29:516 Proceso Lissandra File System/(14150:14206): [CLIENTE] Socket cliente 7 sacado de la lista de activos
+[INFO] 00:07:29:516 Proceso Lissandra File System/(14150:14206): [CLIENTE] Hay 0 clientes activos
+[INFO] 00:07:29:516 Proceso Lissandra File System/(14150:14206): [CLIENTE] Finalizando el hilo
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Cliente intentando conectarse
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14156): [CLIENTE] Dando de alta cliente en socket 8
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14156): [CLIENTE] Socket cliente 8 agregado a la lista de activos
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14156): [CLIENTE] Hay 1 clientes activos
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Esperando recibir un cliente
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [CLIENTE] Empiezo a esperar mensajes
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [CLIENTE] El mensaje recibido es un request
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [RESOLVIENDO PEDIDO] Llego SELECT CELULARES 2
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [RESOLVIENDO SELECT] Entro a función
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [ARMAR PATH TABLA] tabla recibida CELULARES
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [VERIFICADO] La direccion de la tabla que se quiere verificar es: /home/martin/Documentos/lfs-base/Tables/CELULARES
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [ OK ] La tabla ya existe.
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [DEBUG] Voy a bloquear tabla CELULARES
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [ARMAR PATH METADATA TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES/metadata
+[INFO] 00:07:30:572 Proceso Lissandra File System/(14150:14207): [obtenerMetadata] (+) metadata a abrir : /home/martin/Documentos/lfs-base/Tables/CELULARES/metadata
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): LFS: Leyendo metadata...
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Almacenando consistencia
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): La consistencia  es: SHC
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Almacenando particiones
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Las particiones son : 4
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): el tiempo de compactacion es: 600000
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [FREE] variable metadataFile utlizada para navegar el metadata.
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): La key 2 debe almacenarse en la particion 2
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [ARMAR PATH TABLA] tabla recibida CELULARES
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): La ruta de la particion es: /home/martin/Documentos/lfs-base/Tables/CELULARES/2.bin
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Size encontrado del temp es: 0
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 2
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [OBTENIENDO KEY BLOQUES] No encontré un registro con la key indicada
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [ARMAR PATH TABLA] tabla recibida CELULARES
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Busco la key 2 en la tabla CELULARES
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Tengo 1 temporales
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Buscando en el temporal 0 que es /home/martin/Documentos/lfs-base/Tables/CELULARES/2.tmp
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Se ha encontrado el archivo de configuracion
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Size encontrado del temp es: 39
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [OBTENIENDO KEY BLOQUES] Voy a buscar la key 2
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [OBTENIENDO KEY BLOQUES] Terminé de leer los bloques
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [OBTENIENDO KEY BLOQUES] El registro con mayor timestamp es <1564628701370;2;Android>
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Registro encontrado: <1564628701370;2;Android>
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [ARMAR PATH TABLA] tabla recibida CELULARES
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [ARMAR PATH TABLA] Path armado /home/martin/Documentos/lfs-base/Tables/CELULARES
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Entro a función de búsqueda de registro con mayor timestamp en temporal
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Busco la key 2 en la tabla CELULARES
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Tengo 0 temporales
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [DEBUG] Voy a desbloquear tabla CELULARES
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [DEBUG] Voy a bloquear memtable
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [DEBUG] Voy a desbloquear memtable
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): el timestamp mas grande es 1564628701370
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): Registro obtenido: <1564628701370;2;Android>
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [RESOLVIENDO PEDIDO] SELECT hecho correctamente. Valor Android|1564628701370 obtenido
+[INFO] 00:07:30:573 Proceso Lissandra File System/(14150:14207): [CLIENTE] La respuesta fue enviada con éxito al cliente
+[INFO] 00:07:30:574 Proceso Lissandra File System/(14150:14207): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:30:574 Proceso Lissandra File System/(14150:14207): [CLIENTE] El cliente se desconectó
+[INFO] 00:07:30:574 Proceso Lissandra File System/(14150:14207): [CLIENTE] Voy a dar de baja socket 8
+[INFO] 00:07:30:574 Proceso Lissandra File System/(14150:14207): [CLIENTE] Socket cliente 8 sacado de la lista de activos
+[INFO] 00:07:30:574 Proceso Lissandra File System/(14150:14207): [CLIENTE] Hay 0 clientes activos
+[INFO] 00:07:30:574 Proceso Lissandra File System/(14150:14207): [CLIENTE] Finalizando el hilo
+[INFO] 00:07:31:816 Proceso Lissandra File System/(14150:14157): Es tiempo de dump, hay cosas en la memtable?
+[INFO] 00:07:31:817 Proceso Lissandra File System/(14150:14157): La memtable esta vacia
+[INFO] 00:07:36:66 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Cliente intentando conectarse
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14156): [CLIENTE] Dando de alta cliente en socket 7
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14156): [CLIENTE] Socket cliente 7 agregado a la lista de activos
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14156): [CLIENTE] Hay 1 clientes activos
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14156): [SERVIDOR] Esperando recibir un cliente
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14208): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14208): [CLIENTE] Empiezo a esperar mensajes
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14208): [CLIENTE] Recibí un mensaje
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14208): [CLIENTE] El cliente se desconectó
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14208): [CLIENTE] Voy a dar de baja socket 7
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14208): [CLIENTE] Socket cliente 7 sacado de la lista de activos
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14208): [CLIENTE] Hay 0 clientes activos
+[INFO] 00:07:36:67 Proceso Lissandra File System/(14150:14208): [CLIENTE] Finalizando el hilo
+[INFO] 00:07:43:644 Proceso Lissandra File System/(14150:14155): 
+
+**************************** SALIENDO ****************************
+
+
+[INFO] 00:07:43:644 Proceso Lissandra File System/(14150:14150): [CLIENTE] Cerrando sockets de clientes activos. Hay 0
+[INFO] 00:07:43:644 Proceso Lissandra File System/(14150:14150): [CLIENTE] Todos los sockets de clientes fueron cerrados
