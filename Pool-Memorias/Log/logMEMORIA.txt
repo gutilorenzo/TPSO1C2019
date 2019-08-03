@@ -1,0 +1,136 @@
+[INFO] 19:07:04:803 Proceso Memoria/(9699:9699):  ========== Iniciación de Pool de Memoria ========== 
+[INFO] 19:07:04:803 Proceso Memoria/(9699:9699): [LOGYCONFIG] Logger de seguimiento de tablas creado en ../Log/log_TABLAS_MEMORIA.txt
+[INFO] 19:07:04:803 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] RESERVAR MEMORIA.
+[INFO] 19:07:04:803 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] BUSCANDO CONFIGURACION.
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] LEYENDO CONFIGURACION...
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): PUERTO PARA MODULO MEMORIA: 8020
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] IP DE ESCUCHA: 127.0.0.1
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] IP DE FILESYSTEM: 127.0.0.1
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] PUERTO DE FILESYSTEM: 8001
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] IPs DE SEEDS LEIDOS
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] PUERTOS PARA SEEDS LEIDOS
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] RETARDO MEMORIA: 0
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] RETARDO DEL FS: 0
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] TAMAÑO DE MEMORIA: 4096
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] RETARDO DEL JOURNALING: 70000
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] RETARDO DE GOSSIPING: 3000000
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONFIGURANDO MODULO] NUMERO DE MEMORIA: 1
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [LOGYCONFIG] *** CONFIGURACIÓN DE MEMORIA CARGADA. *** 
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONECTANDO A LFS] Recibido el máximo tamaño para los valores. Es 60
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [CONECTANDO A LFS] Me conecté con éxito al lfs
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [MAIN] Iniciando con tamaño máximo de valor 60
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [ARMAR MEMORIA] Alocando el bloque de memoria de tamaño 4096
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [ARMAR MEMORIA] Se ha creado la memoria contigua
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [ARMAR MEMORIA] Tamaño de pagina: 84
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [ARMAR MEMORIA] Cantidad maxima de paginas en memoria: 48
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [ARMAR MEMORIA] BITMAP creado con tamaño de 48
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [ARMAR MEMORIA] Memoria inicializada de forma correcta
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [SEMAFOROS] Iniciando semaforos y mutexs
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [LEVANTANDO SERVIDOR] Me voy a intentar conectar en ip: <127.0.0.1> puerto: <8020>
+[INFO] 19:07:04:804 Proceso Memoria/(9699:9699): [LEVANTANDO SERVIDOR] Servidor conectado
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9699): [INICIALIZANDO GOSSIPING MEMORIA] El gossiping se hará cada 3000000 milisegundos
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9699): [INICIALIZANDO GOSSIPING MEMORIA] Agregando seed 127.0.0.1 9004
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9699): [INICIALIZANDO GOSSIPING MEMORIA] Todas las memorias agregadas
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9699): [INICIANDO HILO GOSSIPING] Voy a crear hilo
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9699): [INICIANDO HILO GOSSIPING] Hilo creado
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): [HILO GOSSIPING] Entrando a hilo
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): [HILO GOSSIPING] Voy a correr gossiping
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): [CORRIENDO GOSSIPING] Iniciando proceso de gossiping
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): [CORRIENDO GOSSIPING] Empiezo a conectarme con las memorias que conozco
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): [CORRIENDO GOSSIPING] Voy a conectarme a <127.0.0.1>-<9004>
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9702): [SERVIDOR] Entrando a hilo de escucha del servidor de la memoria
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): [CORRIENDO GOSSIPING] La memoria <-1>-<127.0.0.1>-<9004> está caida
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): [HILO GOSSIPING] Terminé de ejecutar gossiping.
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): [HILO GOSSIPING] Voy a correr función de actualización
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): No hay memorias caidas
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): [HILO GOSSIPING] Corrí función de actualización
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9701): [HILO GOSSIPING] La próxima ejecución será en 3000000 milisegundos
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9704): [CONSOLA] Entrando a hilo consola
+[INFO] 19:07:04:805 Proceso Memoria/(9699:9705): [JOURNAL AUTOMATICO] PROXIMO JOURNAL EN 70000 milisegundos
+[INFO] 19:07:06:308 Proceso Memoria/(9699:9702): [CLIENTE] Dando de alta cliente en socket 7
+[INFO] 19:07:06:308 Proceso Memoria/(9699:9714): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 19:07:06:308 Proceso Memoria/(9699:9702): [CLIENTE] Hay 1 clientes activos
+[INFO] 19:07:06:308 Proceso Memoria/(9699:9714): [CLIENTE] El cliente hizo un pedido de gossiping
+[INFO] 19:07:06:308 Proceso Memoria/(9699:9714): [CLIENTE] La resupuesta fue enviada con éxito al cliente
+[INFO] 19:07:06:309 Proceso Memoria/(9699:9714): [CLIENTE] El cliente se desconectó
+[INFO] 19:07:06:309 Proceso Memoria/(9699:9714): [CLIENTE] Socket cliente 7 sacado de la lista de activos
+[INFO] 19:07:06:309 Proceso Memoria/(9699:9714): [CLIENTE] Hay 0 clientes activos
+[INFO] 19:07:16:309 Proceso Memoria/(9699:9702): [CLIENTE] Dando de alta cliente en socket 9
+[INFO] 19:07:16:309 Proceso Memoria/(9699:9715): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 19:07:16:309 Proceso Memoria/(9699:9702): [CLIENTE] Hay 1 clientes activos
+[INFO] 19:07:16:309 Proceso Memoria/(9699:9715): [CLIENTE] El cliente hizo un pedido de gossiping
+[INFO] 19:07:16:309 Proceso Memoria/(9699:9715): [CLIENTE] La resupuesta fue enviada con éxito al cliente
+[INFO] 19:07:16:309 Proceso Memoria/(9699:9715): [CLIENTE] El cliente se desconectó
+[INFO] 19:07:16:309 Proceso Memoria/(9699:9715): [CLIENTE] Socket cliente 9 sacado de la lista de activos
+[INFO] 19:07:16:309 Proceso Memoria/(9699:9715): [CLIENTE] Hay 0 clientes activos
+[INFO] 19:07:26:310 Proceso Memoria/(9699:9702): [CLIENTE] Dando de alta cliente en socket 7
+[INFO] 19:07:26:310 Proceso Memoria/(9699:9716): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 19:07:26:310 Proceso Memoria/(9699:9702): [CLIENTE] Hay 1 clientes activos
+[INFO] 19:07:26:311 Proceso Memoria/(9699:9716): [CLIENTE] El cliente hizo un pedido de gossiping
+[INFO] 19:07:26:311 Proceso Memoria/(9699:9716): [CLIENTE] La resupuesta fue enviada con éxito al cliente
+[INFO] 19:07:26:311 Proceso Memoria/(9699:9716): [CLIENTE] El cliente se desconectó
+[INFO] 19:07:26:311 Proceso Memoria/(9699:9716): [CLIENTE] Socket cliente 7 sacado de la lista de activos
+[INFO] 19:07:26:311 Proceso Memoria/(9699:9716): [CLIENTE] Hay 0 clientes activos
+[INFO] 19:07:36:192 Proceso Memoria/(9699:9702): [CLIENTE] Dando de alta cliente en socket 9
+[INFO] 19:07:36:192 Proceso Memoria/(9699:9728): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 19:07:36:192 Proceso Memoria/(9699:9702): [CLIENTE] Hay 1 clientes activos
+[INFO] 19:07:36:192 Proceso Memoria/(9699:9728): [CLIENTE] El cliente hizo un pedido de gossiping
+[INFO] 19:07:36:192 Proceso Memoria/(9699:9728): [CLIENTE] La resupuesta fue enviada con éxito al cliente
+[INFO] 19:07:36:193 Proceso Memoria/(9699:9728): [CLIENTE] El cliente se desconectó
+[INFO] 19:07:36:193 Proceso Memoria/(9699:9728): [CLIENTE] Socket cliente 9 sacado de la lista de activos
+[INFO] 19:07:36:193 Proceso Memoria/(9699:9728): [CLIENTE] Hay 0 clientes activos
+[INFO] 19:07:41:219 Proceso Memoria/(9699:9702): [CLIENTE] Dando de alta cliente en socket 7
+[INFO] 19:07:41:219 Proceso Memoria/(9699:9702): [CLIENTE] Hay 1 clientes activos
+[INFO] 19:07:41:219 Proceso Memoria/(9699:9735): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 19:07:41:219 Proceso Memoria/(9699:9735): [CLIENTE] El cliente hizo un pedido de gossiping
+[INFO] 19:07:41:219 Proceso Memoria/(9699:9735): [CLIENTE] La resupuesta fue enviada con éxito al cliente
+[INFO] 19:07:41:219 Proceso Memoria/(9699:9735): [CLIENTE] El cliente se desconectó
+[INFO] 19:07:41:219 Proceso Memoria/(9699:9735): [CLIENTE] Socket cliente 7 sacado de la lista de activos
+[INFO] 19:07:41:219 Proceso Memoria/(9699:9735): [CLIENTE] Hay 0 clientes activos
+[INFO] 19:07:49:731 Proceso Memoria/(9699:9702): [CLIENTE] Dando de alta cliente en socket 9
+[INFO] 19:07:49:731 Proceso Memoria/(9699:9702): [CLIENTE] Hay 1 clientes activos
+[INFO] 19:07:49:731 Proceso Memoria/(9699:9745): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 19:07:49:731 Proceso Memoria/(9699:9745): [CLIENTE] El cliente hizo un pedido de gossiping
+[INFO] 19:07:49:731 Proceso Memoria/(9699:9745): [CLIENTE] La resupuesta fue enviada con éxito al cliente
+[INFO] 19:07:49:731 Proceso Memoria/(9699:9745): [CLIENTE] El cliente se desconectó
+[INFO] 19:07:49:731 Proceso Memoria/(9699:9745): [CLIENTE] Socket cliente 9 sacado de la lista de activos
+[INFO] 19:07:49:731 Proceso Memoria/(9699:9745): [CLIENTE] Hay 0 clientes activos
+[INFO] 19:07:59:497 Proceso Memoria/(9699:9704): [CONSOLA] Request: D
+[INFO] 19:07:59:731 Proceso Memoria/(9699:9702): [CLIENTE] Dando de alta cliente en socket 7
+[INFO] 19:07:59:732 Proceso Memoria/(9699:9748): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 19:07:59:732 Proceso Memoria/(9699:9702): [CLIENTE] Hay 1 clientes activos
+[INFO] 19:07:59:732 Proceso Memoria/(9699:9748): [CLIENTE] El cliente hizo un pedido de gossiping
+[INFO] 19:07:59:732 Proceso Memoria/(9699:9748): [CLIENTE] La resupuesta fue enviada con éxito al cliente
+[INFO] 19:07:59:732 Proceso Memoria/(9699:9748): [CLIENTE] El cliente se desconectó
+[INFO] 19:07:59:732 Proceso Memoria/(9699:9748): [CLIENTE] Socket cliente 7 sacado de la lista de activos
+[INFO] 19:07:59:732 Proceso Memoria/(9699:9748): [CLIENTE] Hay 0 clientes activos
+[INFO] 19:08:02:786 Proceso Memoria/(9699:9704): [CONSOLA] Request: D
+[INFO] 19:08:04:163 Proceso Memoria/(9699:9704): [CONSOLA] Request: D
+[INFO] 19:08:07:824 Proceso Memoria/(9699:9704): [CONSOLA] Request: SELECT
+[INFO] 19:08:07:824 Proceso Memoria/(9699:9704): [SELECT] Voy a resolver SELECT
+[ERROR] 19:08:07:824 Proceso Memoria/(9699:9704): [SELECT] Cantidad de argumentos incorrecta. Reintente
+[INFO] 19:08:07:824 Proceso Memoria/(9699:9704): [RESOLVIENDO PEDIDO] El SELECT no pudo realizarse
+[INFO] 19:08:07:824 Proceso Memoria/(9699:9704): [LOGGEANDO ESTADO ACTUAL MEMORIA] No se ha inicializado la tabla de segmentos
+[WARNING] 19:08:07:824 Proceso Memoria/(9699:9704): [CONSOLA] Error al resolver pedido. No hay mensaje de error
+[INFO] 19:08:09:732 Proceso Memoria/(9699:9702): [CLIENTE] Dando de alta cliente en socket 9
+[INFO] 19:08:09:732 Proceso Memoria/(9699:9702): [CLIENTE] Hay 1 clientes activos
+[INFO] 19:08:09:732 Proceso Memoria/(9699:9750): [CLIENTE] Entrando a hilo de atención a un cliente
+[INFO] 19:08:09:732 Proceso Memoria/(9699:9750): [CLIENTE] El cliente hizo un pedido de gossiping
+[INFO] 19:08:09:732 Proceso Memoria/(9699:9750): [CLIENTE] La resupuesta fue enviada con éxito al cliente
+[INFO] 19:08:09:733 Proceso Memoria/(9699:9750): [CLIENTE] El cliente se desconectó
+[INFO] 19:08:09:733 Proceso Memoria/(9699:9750): [CLIENTE] Socket cliente 9 sacado de la lista de activos
+[INFO] 19:08:09:733 Proceso Memoria/(9699:9750): [CLIENTE] Hay 0 clientes activos
+[INFO] 19:08:11:264 Proceso Memoria/(9699:9704): [CONSOLA] Request: ADD
+[INFO] 19:08:12:816 Proceso Memoria/(9699:9704): [CONSOLA] Request: SALIR
+[INFO] 19:08:12:816 Proceso Memoria/(9699:9699): [Liberando] Liberando memoria Gossiping
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): [Liberando] Cerrando clientes
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): [CLIENTE] Cerrando sockets de clientes activos. Hay 0
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): [CLIENTE] Todos los sockets de clientes fueron cerrados
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): [LIBERAR] Por liberar Segmentos y sus tablas de paginas
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): [BORRANDO SEGMENTO] Se borraran todos los segmentos
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): [LIBERAR] memoria Liberada
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): [LIBERAR] BITMAP destruido
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): [LIBERANDO CONFIG]
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): [LIBERAR] Struct configuracion Liberada
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): [LIBERAR] Liberando log_memoria
+[INFO] 19:08:12:817 Proceso Memoria/(9699:9699): >>>>>>>>>>>>>>>FIN DE PROCESO MEMORIA<<<<<<<<<<<<<<<

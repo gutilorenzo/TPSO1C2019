@@ -1,0 +1,16 @@
+- "QUANTUM: "1 ---- ES RAFAGA: 1
+- SACAR "[DEBUG]"
+- "SE DEVUELVE VALOR" <> (CRITERO)
+- "RESULTADO FUE (null)"
+- "por hacer post a Sem ..."
+
+
+
+
+para seguir la traza de ejecucion:
+- [EJECUTAR]
+- [METRICAS]
+- [recargarConfiguracion]
+- [HILO GOSSIPING]
+- 
+

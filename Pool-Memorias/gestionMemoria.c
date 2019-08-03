@@ -196,12 +196,6 @@ int funcionInsert(char* nombreTabla, u_int16_t keyBuscada, char* valorAPoner, bo
 			tabla_pagina_crear(keyBuscada, valorAPoner, estadoAPoner,
 					&ref, nombreTabla, true, segmentoBuscado, timestamp_val);
 
-			if(ref->sig == NULL){
-				log_info(log_memoria,"[DBG] OKAAAA");
-			}else{
-				log_info(log_memoria,"[DBG] mallllllllllllllll");
-			}
-
 			if(estadoAPoner) {
 //				printf("[INSERT] Tabla de pagina referenciada creada con info NROPAGINA|KEY|FLAG: %d|%d|TRUE",ref->nropagina, keyBuscada);
 				log_info(log_memoria,"[INSERT] Pagina creada con NROPAGINA|KEY|FLAG: %d|%d|TRUE",ref->nropagina, keyBuscada);
@@ -215,11 +209,6 @@ int funcionInsert(char* nombreTabla, u_int16_t keyBuscada, char* valorAPoner, bo
 			if(segmentoBuscado == NULL)
 				log_info(log_memoria,"[DBG] Segmento buscado es null");
 			pagina_referenciada* ref3 = segmentoBuscado->paginasAsocida;
-			if(ref->sig == NULL){
-				log_info(log_memoria,"[DBG] OKAAAA");
-			}else{
-				log_info(log_memoria,"[DBG] mallllllllllllllll");
-			}
 			if(ref3 == NULL)
 				log_info(log_memoria,"[DBG] ref3 es null");
 //			log_info(log_memoria,"[DBG] Antes del while");
